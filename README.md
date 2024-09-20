@@ -23,5 +23,5 @@
 
 # Graphics Skills
 <p>
-<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-original.svg" width="40"/></picture> 
+<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator.svg" width="40"/></picture> 
 </p>
