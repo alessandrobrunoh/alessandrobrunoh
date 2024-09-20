@@ -1,4 +1,6 @@
-### Hi there 👋
+# Hi there👋
+
+## 💡 Summary
 
 * 📚 Studying Tecnologie dei Sistemi Informatici, Unibo
 * 🕹️ Mostly playing Albion Online, Minecraft, Overwatch
@@ -7,7 +9,7 @@
 * 👯 Looking to collaborate on Small Rust/C Projects
 * 🔭 Working on Nothing...
 
-# 🗿 Coding Skills
+## 🗿 Coding Skills
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">          
 <p align="left">  
@@ -21,7 +23,7 @@
 <picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/></picture>
 </p>
 
-# Graphics Skills
+## 🎨 Graphics Skills
 <p>
-<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator.svg" width="40"/></picture> 
+<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" width="40"/></picture> 
 </p>
