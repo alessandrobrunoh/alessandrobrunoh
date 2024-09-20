@@ -3,7 +3,7 @@
 ## 💡 Summary
 
 * 📚 Studying Tecnologie dei Sistemi Informatici, Unibo
-* 🕹️ Mostly playing Albion Online, Minecraft, Overwatch
+* 🕹️ Playing Albion Online, Minecraft, Overwatch
 * 🌍 Living in Bologna, Italy
 * 🌱 Trying to Master Rust/C Programming Language
 * 👯 Looking to collaborate on Small Rust/C Projects
