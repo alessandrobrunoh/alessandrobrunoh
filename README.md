@@ -1,16 +1,27 @@
-## Hi there 👋
+### Hi there 👋
 
-<!--
-**tacosalfornoh/tacosalfornoh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+* 📚 Studying Tecnologie dei Sistemi Informatici, Unibo
+* 🕹️ Mostly playing Albion Online, Minecraft, Overwatch
+* 🌍 Living in Bologna, Italy
+* 🌱 Trying to Master Rust/C Programming Language
+* 👯 Looking to collaborate on Small Rust/C Projects
+* 🔭 Working on Nothing...
 
-Here are some ideas to get you started:
+# 🗿 Coding Skills
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">          
+<p align="left">  
+<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" width="40"/></picture>
+<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40"/></picture>
+<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40"/></picture>
+<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40"/></picture>
+<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/></picture>
+<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" width="40"/></picture>
+<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" width="40"/></picture>
+<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/></picture>
+</p>
+
+# Graphics Skills
+<p>
+<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" width="40"/></picture> 
+</p>
