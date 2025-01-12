@@ -35,7 +35,7 @@
 ## 📊 Coding Stats
 <div align="center" style="display: flex; justify-content: center;">
 <a href="https://github.com/tacosalfornoh">
-    <img height="195px" src="https://github-readme-stats.vercel.app/api?username=tacosalfornoh&theme=dracula&show_icons=true&hide_border=false&count_private=true"/>
+    <img height="195px" src="https://github-readme-stats.vercel.app/api?username=tacosalfornoh&theme=dracula&show_icons=true&hide_border=false&count_private=true" witdh="50%"/>
     <img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tacosalfornoh&layout=compact&langs_count=8&theme=dracula&hide=css,html,scss,jupyter%20notebook"/>
   </a>
 </div>
