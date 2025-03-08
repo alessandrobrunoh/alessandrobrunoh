@@ -22,6 +22,7 @@
 <picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40"/></picture>
 <picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40"/></picture>
 <picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/></picture>
+<picture><img src="https://images.seeklogo.com/logo-png/45/2/surrealdb-icon-logo-png_seeklogo-453809.png" width="40" height="40"/></picture>
 </p>
 
 ## 🎨 Graphics Skills
