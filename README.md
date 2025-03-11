@@ -23,6 +23,15 @@
 <picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40"/></picture>
 <picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/></picture>
 <picture><img src="https://avatars.githubusercontent.com/u/10982346?s=280&v=4" width="40" height="40"/></picture>
+<picture><img src="https://static-00.iconduck.com/assets.00/mongodb-original-wordmark-icon-2015x2048-n6r3kuri.png" width="40" height="40"/></picture>
+<picture><img src="https://cdn.freebiesupply.com/logos/large/2x/java-4-logo-png-transparent.png" width="40" height="40"/></picture>
+<picture><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" width="40" height="40"/></picture>
+<picture><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png" width="40" height="40"/></picture>
+<picture><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png" width="40" height="40"/></picture>
+<picture><img src="https://banner2.cleanpng.com/20190623/yp/kisspng-python-computer-icons-programming-language-executa-1713885634631.webp" width="40" height="40"/></picture>
+<picture><img src="https://avatars.githubusercontent.com/u/83153330?v=4" width="40" height="40"/></picture>
+<picture><img src="https://actix.rs/img/logo.png" width="40" height="40"/></picture>
+
 </p>
 
 ## 🎨 Graphics Skills
