@@ -10,41 +10,28 @@
 * 🔭 <b>Working</b> on Nothing...
 
 ## 🗿 Coding Skills
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=Software+Languages&lineCount=1&bg=%230D1117&badge=%23161B22&border=%2321262D&titleColor=%2358A6FF&line1=rust%2Crust%2Caf664c%3Bpython%2Cpython%2C3776AB%3Bflutter%2Cflutter%2C02569B%3Bcoffeescript%2Cjava%2CC8202F%3B" alt="Software Languages" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=Web+Frameworks&lineCount=2&bg=%230D1117&badge=%23161B22&border=%2321262D&titleColor=%2358A6FF&line1=typescript%2Ctypescript%2C3178C6%3Bjavascript%2Cjavascript%2CF7DF1E%3Bvue.js%2Cvue%2C4FC08D%3Bphp%2Cphp%2C777BB4%3B&line2=leptos%2Cleptos%2CEF3939%3Bdata%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NjAiIGhlaWdodD0iOTYwIiB2aWV3Qm94PSIwIDAgOTYwMCA5NjAwIj48cGF0aCBkPSJNNTQzNiA3NjU5Yy0yMDYtMTMtNDYzLTUzLTYxNi05NS01NS0xNS01NS0xNS01My0yODA3czItMjc5MiA0My0yNzk1YzMzLTMgNjIgOCAxNTggNTYgNzkzIDQwMCAxNDA0IDExMTEgMTY0NSAxOTEyIDE5IDYzIDQzIDE1MCA1MyAxOTIgMTAgNDMgMjIgNzggMjcgNzhzMjUzLTc5IDU1MS0xNzVjMzQ1LTExMSA1NTctMTc1IDU4My0xNzUgNDIgMCA0MiAwIDk3IDExNCAxNTAgMzExIDIxNSA2MjggMjAzIDk5MC02IDE4NC0yNyAzMTMtNzUgNDc2LTQwIDEzMi0xMjggMzI4LTE4NyA0MTQtMjggNDItMjYgNDggMjAgNjQgMTcgNiAxMzYgNTQgMjY1IDEwN3MyNDMgOTkgMjUzIDEwMmMxMiA0IDE3IDE2IDE3IDQ1IDAgMzEtMTEgNTUtNTcgMTIxLTY5MyAxMDAxLTE2NjMgMTQ1Ni0yOTI3IDEzNzZ6bTQxMi01ODRjMTE2LTUzIDIyNy0yMDQgMjczLTM3MCA3OC0yODYtNjUtNjI2LTMwMC03MTYtMTU5LTYwLTMxMyAyNS00NDcgMjQ3LTQzIDcyLTUzIDEwNS02NSAyMTQtMzAgMjkwIDEyMSA1NzQgMzQ0IDY0NiA1NCAxOCAxMjcgMTAgMTk1LTIxeiIgZmlsbD0iI0Y4Qjk0QyIvPjxwYXRoIGQ9Ik0zNjE1IDc2NjBjLTk5Ny03MC0xODA3LTU0MC0yMzgzLTEzODItNDEtNjAtNTItODUtNTItMTE1IDAtMzkgMC0zOSAyNTgtMTQyIDE0MS01NyAyNzItMTEwIDI5MC0xMTggMzMtMTQgMzMtMTQgNy01Ni0xMTItMTgyLTE5OS00MTYtMjQyLTY0NC0yNS0xMzYtMjUtNTIzIDAtNjY4IDM1LTIwMCAxMDMtNDA3IDE5NC01OTEgNDctOTQgNDctOTQgODctOTQgMzYgMCAxMzcgMzAgNjA2IDE4MiA1MzEgMTcxIDUzMSAxNzEgNTM0IDE2NiAxLTEgMTktNjcgMzktMTQ1IDk3LTM3NyAyODAtNzUzIDUyMC0xMDcyIDE5MC0yNTEgNDQ0LTQ5NyA3MTItNjkwIDIzMy0xNjggNTMxLTMzMSA2MDQtMzMxIDI5IDAgNDEgNCA0MSAxNCAwIDgtNyAxNi0xNSAxOC0xNCAzLTE2IDMwMi0xOCAyNzY1LTIgMjI4NyAwIDI3NjMgMTEgMjc2MyAyNSAwIDcgMzQtMjMgNDItMjgxIDc4LTgxNCAxMjItMTE3MCA5OHptNTEzLTU4NWMxNjMtNzQgMjk1LTMxNCAyOTUtNTM1LTEtMjQ3LTEzOC00ODAtMzIyLTU1MS05NS0zNi0xOTAtMTgtMjg5IDU1LTQzIDMxLTEzMiAxMzQtMTMyIDE1MSAwIDQtMTMgMjUtMjggNDgtNDAgNTgtNTEgOTctNjIgMjA3LTI0IDI0OSA3NiA0ODggMjUwIDYwMCAxMDEgNjUgMTg0IDcyIDI4OCAyNXoiIGZpbGw9IiNGMzk2MzYiLz48cGF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGQ9Ik0zNjg1IDY3NTFjLTQ2LTIxLTEwMS03OS0xMjItMTMwLTEyLTI4LTEzLTU4LTgtMTQ1IDktMTM2IDI2LTIwNCA2NS0yNjEgMTctMjQgMzAtNDggMzAtNTIgMC01IDE1LTI2IDM0LTQ2IDMyLTM1IDM3LTM3IDkzLTM3IDE0MSAwIDIyOCA5NCAyNTMgMjczIDE5IDEzMy0xNyAyODAtODUgMzUxLTYyIDYzLTE3OCA4NS0yNjAgNDd6bTE3MjAgMGMtNDYtMjEtMTAxLTc5LTEyMi0xMzAtMTgtNDItMTAtMjE4IDEyLTMwNSAxNS01NiA3NS0xNjMgMTE2LTIwOCAyNC0yNSAzNC0yOCA4Ni0yOCAxMTcgMCAyMDIgNzAgMjM5IDE5OCAyNCA4MiAxNiAyNzAtMTQgMzM3LTYwIDEzMi0xOTcgMTkxLTMxNyAxMzZ6IiBmaWxsPSIjRkZGIi8%2BPHBhdGggZD0iTTM5MDMgNzEyNmMtOTUtMzEtMjAyLTEyMy0yNTctMjIzLTU5LTEwNS0xMDMtMjg1LTk0LTM4OSAzLTM5IDMtMzggMjUgMzEgMjYgODMgNzggMTQ5IDEzNyAxNzYgNTIgMjMgODAgMjMgMTMyIDAgODAtMzYgMTM3LTEyNSAxNTItMjM3IDIxLTE2NC00Ny0zMTUtMTYyLTM1OS01NC0yMS05OS0xNS0xNTAgMjAtMjAgMTMtMzYgMjItMzYgMTkgMC0xNyA5MC0xMjAgMTMyLTE1MCAyNTMtMTg2IDU2NS0yMiA2NTUgMzQ1IDI1IDEwMSAyMiAyNzYtNSAzNzQtNDkgMTc0LTE1NiAzMTgtMjc3IDM3My02OSAzMi0xODggNDEtMjUyIDIwem0xNzIwIDBjLTk4LTMyLTIwMC0xMjAtMjU3LTIyMi01OS0xMDYtOTctMjU3LTk1LTM4MSAxLTU4IDEtNTggMjUgMjAgMjAgNjIgMzQgODggNzIgMTI3IDg0IDg3IDE2OSA5MCAyNTcgOSA2MC01NSA4Ny0xMjQgOTMtMjMwIDgtMTUxLTQ0LTI2NS0xNDAtMzEzLTI5LTE0LTYyLTI2LTc1LTI2LTMyIDAtOTMgMjYtMTIyIDUzcy0yMCA5IDMyLTYxYzEwNC0xMzggMjc1LTE5OCA0MjUtMTQ4IDE0NSA0OSAyNzEgMjA5IDMxOSA0MDUgMjUgMTAwIDIyIDI3Ni02IDM3Ni00NyAxNjktMTU3IDMxNy0yNzYgMzcxLTY5IDMyLTE4OCA0MS0yNTIgMjB6IiBmaWxsPSIjMDAwIi8%2BPC9zdmc%2B%2Csycamore%2C%3B" alt="Web Frameworks" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=Api+Frameworks&lineCount=1&bg=%230D1117&badge=%23161B22&border=%2321262D&titleColor=%2358A6FF&line1=spring%2Cspring%2C6DB33F%3Bactix%2Cactix%2Cffffff%3Bexpress%2Cexpress%2C000000%3B" alt="Api Frameworks" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=Databases&lineCount=1&bg=%230D1117&badge=%23161B22&border=%2321262D&titleColor=%2358A6FF&line1=mysql%2Cmysql%2C4479A1%3Bmongodb%2Cmongo%2C47A248%3Bsurrealdb%2Csurreal%2CFF00A0%3Bpostgresql%2Cpostgresql%2C4169E1%3B" alt="Databases" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=Programs&lineCount=2&bg=%230D1117&badge=%23161B22&border=%2321262D&titleColor=%2358A6FF&line1=androidstudio%2Candroid+studio%2C3DDC84%3Bjetbrains%2Cjetbrains+ide%2Cb748da%3Bdocker%2Cdocker%2C2496ED%3B&line2=github%2Cgithub%2Cffffff%3Bfigma%2Cfigma%2CF24E1E%3Byoutrack%2Cyoutrack%2C3e2929%3B" alt="Programs" />
+</div>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">          
-<p align="left">  
-<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" width="40" height="40"/></picture>
-<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" height="40"/></picture>
-<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40"/></picture>
-<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40"/></picture>
-<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/></picture>
-<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" height="40"/></picture>
-<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40"/></picture>
-<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40"/></picture>
-<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/></picture>
-<picture><img src="https://avatars.githubusercontent.com/u/10982346?s=280&v=4" width="40" height="40"/></picture>
-<picture><img src="https://www.geekandjob.com/uploads/wiki/f03eab0e2926595f84d8e8903a2c08adcd62320e.png" width="40" height="40"/></picture>
-<picture><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" width="40" height="40"/></picture>
-<picture><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png" width="40" height="40"/></picture>
-<picture><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png" width="40" height="40"/></picture>
-<picture><img src="https://banner2.cleanpng.com/20190623/yp/kisspng-python-computer-icons-programming-language-executa-1713885634631.webp" width="40" height="40"/></picture>
-<picture><img src="https://avatars.githubusercontent.com/u/83153330?v=4" width="40" height="40"/></picture>
-<picture><img src="https://actix.rs/img/logo.png" width="40" height="40"/></picture>
 
-</p>
 
 ## 🎨 Graphics Skills
-<p>
-<picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" width="40"/></picture> 
+<p align="center">
+  <a href="#">
+    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+  </a>
 </p>
 
-## 🏆 Trophies
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=alessandrobrunoh&theme=dark_lover&margin-w=15&margin-h=15&row=1" alt="tacosalfornoh" /></a> </p>
 
 ## 📊 Coding Stats
 <div align="center" style="display: flex; justify-content: center;">
-<a href="https://github.com/tacosalfornoh">
-    <img height="195px" src="https://github-readme-stats.vercel.app/api?username=alessandrobrunoh&theme=dracula&show_icons=true&hide_border=false&count_private=true" witdh="50%"/>
-    <img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alessandrobrunoh&layout=compact&langs_count=8&theme=dracula&hide=css,html,scss,jupyter%20notebook"/>
+<a href="#">
+    <img height="195px" src="https://github-stats-alpha.vercel.app/api?username=alessandrobrunoh" witdh="50%"/>
+    <img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alessandrobrunoh&hide_border=false&include_all_commits=true&count_private=false&layout=compact&hide=css,html,scss,jupyter%20notebook"/>
   </a>
 </div>
