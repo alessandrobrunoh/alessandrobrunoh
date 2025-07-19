@@ -23,6 +23,6 @@
 <div align="center" style="display: flex; justify-content: center;">
 <a href="#">
     <img height="195px" src="https://github-readme-stats.vercel.app/api?username=alessandrobrunoh&theme=dark&show_icons=true&hide_border=true&count_private=true"/>
-    <img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alessandrobrunoh&hide_border=false&theme=dark&include_all_commits=true&count_private=false&hide_border=true&layout=compact&hide=css,html,scss,jupyter%20notebook"/>
+    <img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alessandrobrunoh&hide_border=false&theme=dark&include_all_commits=true&count_private=false&hide_border=true&layout=compact&hide=css,makefile,html,scss,jupyter%20notebook"/>
   </a>
 </div>
