@@ -1,5 +1,3 @@
-# Hi there👋
-
 ## 💡 Summary
 
 * 📚 <b>Studying</b> Tecnologie dei Sistemi Informatici, Unibo
