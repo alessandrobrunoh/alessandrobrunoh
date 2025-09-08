@@ -10,7 +10,7 @@
 
 ---
 
-# 🚀 **TECH STACK** 🚀
+# 🚀 **Tech Stack**
 
 <div align="center">
 
@@ -19,28 +19,22 @@
 </div>
 
 ### 🦀 **RUST** 🦀  
-> *Modern Systems Programming Language*
 - 🌐 **Web Frameworks:** Leptos, Dioxus, Sycamore  
-- ⚡ **Backend:** Actix-web, Tokio Runtime  
+- ⚡ **Backend:** Actix, Tokio, Axum
 - 🖥️ **UI Development:** GPUI  
-- 🔧 **Systems:** High-performance applications  
 
 ### ☕ **JAVA** ☕  
-> *Enterprise-Grade Development*
 - 🍃 **Spring Framework** - Full-stack development  
 - 📨 **Apache Kafka** - Message streaming  
-- 🔧 **Microservices** - Distributed architecture  
-- 🏢 **Enterprise** - Large-scale applications  
+- 🔧 **Microservices** - Distributed architecture    
 
 ### 🎯 **DART** 🎯  
-> *Cross-Platform Mobile Development*
 - 📱 **Flutter** - Native mobile apps  
-- 🎨 **Material Design** - Beautiful UIs  
-- 🔄 **Hot Reload** - Fast development  
+- 🎨 **Material Design** - Beautiful UIs    
 
 <div align="center">
 
-## 🛠️ **ADDITIONAL TECHNOLOGIES** 🛠️
+## 🛠️ **Additional Technologies** 
 
 </div>
 
@@ -48,12 +42,10 @@
 - **⚛️ React** + TypeScript/JavaScript  
 - **💚 Vue.js** - Progressive framework  
 - **🎨 SCSS/CSS** - Modern styling  
-- **📱 Responsive Design** - Mobile-first approach  
 
 ### 📊 **DATA & ANALYTICS**  
 - **🐍 Python** - Data science & ML  
 - **📈 Machine Learning** - Predictive models  
-- **📋 Data Processing** - Analysis pipelines  
 
 ---
 
