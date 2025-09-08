@@ -1,0 +1,10 @@
+# Python dependencies for the language analyzer
+# Currently using only standard library modules
+# Future dependencies can be added here
+
+# For enhanced GitHub API interactions (if needed in the future)
+# requests>=2.25.1
+
+# For data analysis enhancements (if needed in the future)
+# pandas>=1.3.0
+# matplotlib>=3.4.0
