@@ -41,9 +41,12 @@ jobs:
       - name: Read language ranking file
         id: read_ranking
         run: |
-          echo 'data<<EOF' >> $GITHUB_OUTPUT
-          cat language_ranking.md >> $GITHUB_OUTPUT
-          echo 'EOF' >> $GITHUB_OUTPUT
+          {
+            echo 'data<<EOF'
+            cat language_ranking.md
+            echo
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
 
       - name: Update README with language rankings
         env:
@@ -73,9 +76,12 @@ jobs:
       - name: Read language stats file
         id: read_stats
         run: |
-          echo 'data<<EOF' >> $GITHUB_OUTPUT
-          cat language_ranking.json >> $GITHUB_OUTPUT
-          echo 'EOF' >> $GITHUB_OUTPUT
+          {
+            echo 'data<<EOF'
+            cat language_ranking.json
+            echo
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
 
       - name: Update README with language stats
         env:
