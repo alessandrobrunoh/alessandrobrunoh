@@ -32,7 +32,7 @@ jobs:
 
       - name: Update language analyzer script
         run: |
-          curl -o repo_language_analyzer.py https://raw.githubusercontent.com/alessandrobrunoh/alessandrobrunoh/main/repo_language_analyzer.py
+          curl -o repo_language_analyzer.py https://raw.githubusercontent.com/alessandrobrunoh/update-profile-stats-script/refs/heads/main/script.py
 
       - name: Update config file
         run: |
