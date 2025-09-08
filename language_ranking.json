@@ -106,5 +106,15 @@
     "Card-Game-Builder",
     "My-Zed-IDE-Snippets",
     "alessandrobrunoh"
-  ]
+  ],
+  "user_stats": {
+    "total_commits": 440,
+    "total_contributions": 460,
+    "total_pull_requests": 44,
+    "total_issues_created": 20,
+    "total_stars_gained": 32,
+    "total_repositories": 20,
+    "owned_repositories": 16,
+    "contributed_repositories": 4
+  }
 }
