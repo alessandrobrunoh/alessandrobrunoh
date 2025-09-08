@@ -12,11 +12,7 @@
 
 # 🚀 **Tech Stack**
 
-<div align="center">
-
-## 🌟 **PRIMARY TECHNOLOGIES** 🌟
-
-</div>
+## 🌟 **Primary Technologies** 🌟
 
 ### 🦀 **RUST** 🦀  
 - 🌐 **Web Frameworks:** Leptos, Dioxus, Sycamore  
@@ -32,11 +28,7 @@
 - 📱 **Flutter** - Native mobile apps  
 - 🎨 **Material Design** - Beautiful UIs    
 
-<div align="center">
-
 ## 🛠️ **Additional Technologies** 
-
-</div>
 
 ### 🌐 **FRONTEND DEVELOPMENT**  
 - **⚛️ React** + TypeScript/JavaScript  
