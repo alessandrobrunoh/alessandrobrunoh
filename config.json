@@ -21,7 +21,8 @@
     "CSS", 
     "Makefile",
     "Dockerfile",
-    "C++"
+    "C++",
+    "Jupyter Notebook"
   ],
   "included_organizations": [
     "ketchapp-for-study"

@@ -3,8 +3,9 @@
 ## 💡 About Me
 
 * 📚 **Computer Science Student** at University of Bologna, Italy
-* 🦀 **Passionate about** Rust & Systems Programming
-* 🕹️ **Gaming enthusiast** - Albion Online, Minecraft, Overwatch
+* 🦀 **Passionate about** Rust, Backend Development, Frontend Design, and User Experience
+* 🎨 **Design tools** - Figma for UI/UX design and prototyping
+* 🕹️ **Gaming enthusiast** - Albion Online, Minecraft, Overwatch, No Man's Sky
 * 🌍 **Based in** Bologna, Italy
 
 ---
@@ -15,7 +16,6 @@
 
 **🦀 Rust** - Modern systems programming
 - 🌐 Web: Leptos, Dioxus, Sycamore
-- 🎮 Game Dev: Bevy Engine
 - ⚡ Backend: Actix, Tokio
 - 🖥️ UI: GPUI
 
@@ -35,7 +35,7 @@
 - SCSS/CSS Styling
 
 **📊 Data & Analysis**
-- Jupyter Notebooks
+- Python for data science
 - Machine Learning Projects
 
 ---
@@ -44,25 +44,22 @@
 
 *Analysis across personal and contributed repositories*
 
-**🥇 Rust** - 57.1%  
-`█████████████████░░░` 120,000 bytes
+**🥇 Rust** - 63.2%  
+`████████████████████` 120,000 bytes / 4,500 lines
 
-**🥈 Java** - 17.1%  
-`███████░░░░░░░░░░░░░` 36,000 bytes
+**🥈 Java** - 18.9%  
+`██████░░░░░░░░░░░░░░` 36,000 bytes / 1,800 lines
 
-**🥉 Dart** - 5.7%  
-`███░░░░░░░░░░░░░░░░░` 12,000 bytes
+**🥉 Dart** - 6.3%  
+`███░░░░░░░░░░░░░░░░░` 12,000 bytes / 800 lines
 
-**📊 Jupyter Notebook** - 4.8%  
-`██░░░░░░░░░░░░░░░░░░` 10,000 bytes
+**💚 Vue** - 5.3%  
+`██░░░░░░░░░░░░░░░░░░` 10,000 bytes / 600 lines
 
-**💚 Vue** - 4.8%  
-`██░░░░░░░░░░░░░░░░░░` 10,000 bytes
+**⚡ TypeScript** - 4.2%  
+`██░░░░░░░░░░░░░░░░░░` 8,000 bytes / 400 lines
 
-**⚡ TypeScript** - 3.8%  
-`██░░░░░░░░░░░░░░░░░░` 8,000 bytes
-
-**🎨 SCSS** - 1.9%  
-`█░░░░░░░░░░░░░░░░░░░` 4,000 bytes
+**🎨 SCSS** - 2.1%  
+`█░░░░░░░░░░░░░░░░░░░` 4,000 bytes / 250 lines
 
 
