@@ -66,8 +66,6 @@ jobs:
               f.truncate()
           EOF
 
-
-
       - name: Check for changes
         id: verify-changed-files
         run: |
@@ -84,6 +82,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add README.md language_ranking.md language_ranking.json
           git commit -m "🔄 Update language rankings - $(date +'%Y-%m-%d')"
+          git pull --rebase
           git push
 
       - name: Create summary
