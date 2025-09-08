@@ -10,33 +10,50 @@
 
 ---
 
-## 🚀 Tech Stack
+# 🚀 **TECH STACK** 🚀
 
-### 🌟 Primary Technologies
+<div align="center">
 
-**🦀 Rust** - Modern systems programming
-- 🌐 Web: Leptos, Dioxus, Sycamore
-- ⚡ Backend: Actix, Tokio
-- 🖥️ UI: GPUI
+## 🌟 **PRIMARY TECHNOLOGIES** 🌟
 
-**☕ Java** - Enterprise solutions
-- 🍃 Spring Framework
-- 📨 Apache Kafka
-- 🔧 Microservices Architecture
+</div>
 
-**🎯 Dart** - Cross-platform mobile
-- 📱 Flutter Development
+### 🦀 **RUST** 🦀  
+> *Modern Systems Programming Language*
+- 🌐 **Web Frameworks:** Leptos, Dioxus, Sycamore  
+- ⚡ **Backend:** Actix-web, Tokio Runtime  
+- 🖥️ **UI Development:** GPUI  
+- 🔧 **Systems:** High-performance applications  
 
-### 🛠️ Additional Technologies
+### ☕ **JAVA** ☕  
+> *Enterprise-Grade Development*
+- 🍃 **Spring Framework** - Full-stack development  
+- 📨 **Apache Kafka** - Message streaming  
+- 🔧 **Microservices** - Distributed architecture  
+- 🏢 **Enterprise** - Large-scale applications  
 
-**🌐 Frontend**
-- TypeScript/JavaScript with React
-- Vue.js Framework
-- SCSS/CSS Styling
+### 🎯 **DART** 🎯  
+> *Cross-Platform Mobile Development*
+- 📱 **Flutter** - Native mobile apps  
+- 🎨 **Material Design** - Beautiful UIs  
+- 🔄 **Hot Reload** - Fast development  
 
-**📊 Data & Analysis**
-- Python for data science
-- Machine Learning Projects
+<div align="center">
+
+## 🛠️ **ADDITIONAL TECHNOLOGIES** 🛠️
+
+</div>
+
+### 🌐 **FRONTEND DEVELOPMENT**  
+- **⚛️ React** + TypeScript/JavaScript  
+- **💚 Vue.js** - Progressive framework  
+- **🎨 SCSS/CSS** - Modern styling  
+- **📱 Responsive Design** - Mobile-first approach  
+
+### 📊 **DATA & ANALYTICS**  
+- **🐍 Python** - Data science & ML  
+- **📈 Machine Learning** - Predictive models  
+- **📋 Data Processing** - Analysis pipelines  
 
 ---
 
