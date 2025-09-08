@@ -45,21 +45,21 @@ jobs:
           import re
           import os
 
-          new_ranking = os.environ['NEW_RANKING']
+          new_ranking = os.environ.get('NEW_RANKING', '')
 
-          with open('README.md', 'r') as f:
+          with open('README.md', 'r+') as f:
               content = f.read()
+              pattern = r'(?s)## 🔥 Programming Language Rankings.*?(?=## |\Z)'
+              new_section = f'## 🔥 Programming Language Rankings\n{new_ranking}'
 
-          pattern = r'(?s)## 🔥 Programming Language Rankings.*?(?=## |\Z)'
-          new_section = f'## 🔥 Programming Language Rankings\n{new_ranking}'
+              if re.search(pattern, content):
+                  new_content = re.sub(pattern, new_section, content, 1)
+              else:
+                  new_content = content + "\n" + new_section
 
-          if re.search(pattern, content):
-              new_content = re.sub(pattern, new_section, content, 1)
-          else:
-              new_content = content + "\n" + new_section
-
-          with open('README.md', 'w') as f:
+              f.seek(0)
               f.write(new_content)
+              f.truncate()
           EOF
 
       - name: Update README with language stats
@@ -69,22 +69,22 @@ jobs:
           import re
           import os
 
-          language_stats = os.environ['LANGUAGE_STATS']
+          language_stats = os.environ.get('LANGUAGE_STATS', '')
           new_section_content = f"<details>\n<summary>Click to see Language Stats</summary>\n\n```json\n{language_stats}\n```\n</details>"
 
-          with open('README.md', 'r') as f:
+          with open('README.md', 'r+') as f:
               content = f.read()
+              pattern = r'(?s)## 📊 Language Stats.*?(?=## |\Z)'
+              new_section = f'## 📊 Language Stats\n{new_section_content}'
 
-          pattern = r'(?s)## 📊 Language Stats.*?(?=## |\Z)'
-          new_section = f'## 📊 Language Stats\n{new_section_content}'
+              if re.search(pattern, content):
+                  new_content = re.sub(pattern, new_section, content, 1)
+              else:
+                  new_content = content + "\n" + new_section
 
-          if re.search(pattern, content):
-              new_content = re.sub(pattern, new_section, content, 1)
-          else:
-              new_content = content + "\n" + new_section
-
-          with open('README.md', 'w') as f:
+              f.seek(0)
               f.write(new_content)
+              f.truncate()
           EOF
 
       - name: Check for changes
