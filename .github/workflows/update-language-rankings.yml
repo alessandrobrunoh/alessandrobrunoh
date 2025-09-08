@@ -38,11 +38,17 @@ jobs:
         run: |
           python repo_language_analyzer.py
 
+      - name: Read language ranking file
+        id: read_ranking
+        run: |
+          echo 'data<<EOF' >> $GITHUB_OUTPUT
+          cat language_ranking.md >> $GITHUB_OUTPUT
+          echo 'EOF' >> $GITHUB_OUTPUT
+
       - name: Update README with language rankings
         env:
           NEW_RANKING: ${{ steps.read_ranking.outputs.data }}
         run: |
-          # Replace the language ranking section in README.md
           python3 << EOF
           import re
           import os
@@ -63,17 +69,18 @@ jobs:
           with open('README.md', 'w') as f:
               f.write(new_content)
           EOF
-        id: update_readme_ranking
 
       - name: Read language stats file
         id: read_stats
-        run: echo "data=$(cat language_ranking.json)" >> $GITHUB_OUTPUT
+        run: |
+          echo 'data<<EOF' >> $GITHUB_OUTPUT
+          cat language_ranking.json >> $GITHUB_OUTPUT
+          echo 'EOF' >> $GITHUB_OUTPUT
 
       - name: Update README with language stats
         env:
           LANGUAGE_STATS: ${{ steps.read_stats.outputs.data }}
         run: |
-          # Replace the language stats section in README.md
           python3 << EOF
           import re
           import os
@@ -95,7 +102,6 @@ jobs:
           with open('README.md', 'w') as f:
               f.write(new_content)
           EOF
-        id: update_readme_stats
 
       - name: Check for changes
         id: verify-changed-files
