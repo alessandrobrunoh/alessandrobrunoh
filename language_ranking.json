@@ -10,6 +10,14 @@
     "SCSS": 4000,
     "Dart": 12000
   },
+  "language_lines": {
+    "Rust": 16000,
+    "Java": 5400,
+    "TypeScript": 1200,
+    "Vue": 1500,
+    "SCSS": 500,
+    "Dart": 1800
+  },
   "language_percentages": {
     "Rust": 63.1578947368421,
     "Java": 18.947368421052634,

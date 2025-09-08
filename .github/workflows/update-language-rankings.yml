@@ -66,30 +66,7 @@ jobs:
               f.truncate()
           EOF
 
-      - name: Update README with language stats
-        run: |
-          export LANGUAGE_STATS=$(cat language_ranking.json)
-          python3 << EOF
-          import re
-          import os
 
-          language_stats = os.environ.get('LANGUAGE_STATS', '')
-          new_section_content = f"<details>\n<summary>Click to see Language Stats</summary>\n\n```json\n{language_stats}\n```\n</details>"
-
-          with open('README.md', 'r+') as f:
-              content = f.read()
-              pattern = r'(?s)## 📊 Language Stats.*?(?=## |\Z)'
-              new_section = f'## 📊 Language Stats\n{new_section_content}'
-
-              if re.search(pattern, content):
-                  new_content = re.sub(pattern, new_section, content, 1)
-              else:
-                  new_content = content + "\n" + new_section
-
-              f.seek(0)
-              f.write(new_content)
-              f.truncate()
-          EOF
 
       - name: Check for changes
         id: verify-changed-files
