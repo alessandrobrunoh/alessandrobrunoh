@@ -13,26 +13,30 @@ class GitHubLanguageAnalyzer:
     def __init__(self, username: str):
         self.username = username
         # Data manually collected from GitHub API (from previous search results)
+        # Includes both owned repositories and repositories where user has contributed
         self.repositories_data = [
-            {"name": "DioxusTest", "language": "Rust", "fork": False},
-            {"name": "KetchApp-Kafka", "language": "Java", "fork": False},
-            {"name": "Progetto-Fondamenti-Web", "language": "CSS", "fork": False},
-            {"name": "KetchApp-Auth-Api", "language": "Rust", "fork": False},
-            {"name": "leptos_styles", "language": "Makefile", "fork": False},
-            {"name": "ReactTest", "language": "TypeScript", "fork": False},
-            {"name": "Tokio-TCP-Chat-Test", "language": "Rust", "fork": False},
-            {"name": "Progetto-Machine-Learning", "language": "Jupyter Notebook", "fork": False},
-            {"name": "Progetto-Ingegneria-Web", "language": "Vue", "fork": False},
-            {"name": "LeptosTest", "language": "Rust", "fork": False},
-            {"name": "SycamoreTest", "language": "Rust", "fork": False},
-            {"name": "Progetto-Big-Data", "language": "Jupyter Notebook", "fork": False},
-            {"name": "gpuiTest", "language": "Rust", "fork": False},
-            {"name": "AlbionManagerDiscord", "language": "Rust", "fork": False},
-            {"name": "RustProject", "language": "Rust", "fork": False},
-            {"name": "Card-Game-Builder", "language": None, "fork": False},
-            {"name": "My-Zed-IDE-Snippets", "language": None, "fork": False},
-            {"name": "alessandrobrunoh", "language": None, "fork": False},
-            {"name": "alessandrobrunoh.github.io", "language": "SCSS", "fork": False}
+            # Owned repositories
+            {"name": "DioxusTest", "language": "Rust", "fork": False, "owned": True},
+            {"name": "KetchApp-Kafka", "language": "Java", "fork": False, "owned": True},
+            {"name": "Progetto-Fondamenti-Web", "language": "CSS", "fork": False, "owned": True},
+            {"name": "KetchApp-Auth-Api", "language": "Rust", "fork": False, "owned": True},
+            {"name": "leptos_styles", "language": "Makefile", "fork": False, "owned": True},
+            {"name": "ReactTest", "language": "TypeScript", "fork": False, "owned": True},
+            {"name": "Tokio-TCP-Chat-Test", "language": "Rust", "fork": False, "owned": True},
+            {"name": "Progetto-Machine-Learning", "language": "Jupyter Notebook", "fork": False, "owned": True},
+            {"name": "Progetto-Ingegneria-Web", "language": "Vue", "fork": False, "owned": True},
+            {"name": "LeptosTest", "language": "Rust", "fork": False, "owned": True},
+            {"name": "SycamoreTest", "language": "Rust", "fork": False, "owned": True},
+            {"name": "Progetto-Big-Data", "language": "Jupyter Notebook", "fork": False, "owned": True},
+            {"name": "gpuiTest", "language": "Rust", "fork": False, "owned": True},
+            {"name": "AlbionManagerDiscord", "language": "Rust", "fork": False, "owned": True},
+            {"name": "RustProject", "language": "Rust", "fork": False, "owned": True},
+            {"name": "Card-Game-Builder", "language": None, "fork": False, "owned": True},
+            {"name": "My-Zed-IDE-Snippets", "language": None, "fork": False, "owned": True},
+            {"name": "alessandrobrunoh", "language": None, "fork": False, "owned": True},
+            {"name": "alessandrobrunoh.github.io", "language": "SCSS", "fork": False, "owned": True},
+            # Contributed repositories
+            {"name": "KetchApp-Flutter", "language": "Dart", "fork": False, "owned": False, "contributor": True}
         ]
     
     def get_user_repositories(self) -> List[Dict]:
@@ -51,6 +55,7 @@ class GitHubLanguageAnalyzer:
             'Jupyter Notebook': 5000,
             'SCSS': 4000,
             'Makefile': 1000,
+            'Dart': 12000,  # Added for Flutter/Dart projects
             None: 500  # For repositories without a primary language
         }
         return language_size_estimates.get(language, 3000)
@@ -113,6 +118,8 @@ class GitHubLanguageAnalyzer:
         
         return {
             'total_repositories': len([repo for repo in self.get_user_repositories() if not repo.get('fork', False)]),
+            'owned_repositories': len([repo for repo in self.get_user_repositories() if not repo.get('fork', False) and repo.get('owned', True)]),
+            'contributed_repositories': len([repo for repo in self.get_user_repositories() if not repo.get('fork', False) and repo.get('contributor', False)]),
             'language_stats': filtered_stats,
             'language_percentages': percentages,
             'language_repositories': language_repos,
@@ -124,40 +131,22 @@ class GitHubLanguageAnalyzer:
         """Format the ranking data as markdown."""
         md = []
         md.append("## 🔥 Programming Language Rankings\n")
-        md.append(f"*Based on analysis of {ranking_data['total_repositories']} repositories*\n")
+        md.append(f"*Based on analysis of {ranking_data['total_repositories']} repositories ({ranking_data['owned_repositories']} owned + {ranking_data['contributed_repositories']} contributed)*\n")
         
         if not ranking_data['ranking']:
             md.append("No language data available.\n")
             return "\n".join(md)
         
-        md.append("### Top Languages by Code Volume\n")
-        
         for i, (language, bytes_count) in enumerate(ranking_data['ranking'][:10], 1):
             percentage = ranking_data['language_percentages'][language]
             repo_count = len(ranking_data['language_repositories'][language])
             
-            # Create progress bar
+            # Create progress bar (visual representation)
             bar_length = max(1, int(percentage / 100 * 20))  # Ensure at least 1 char for small percentages
             bar = "█" * bar_length + "░" * (20 - bar_length)
             
             md.append(f"{i}. **{language}** - {percentage:.1f}% ({repo_count} repos)")
             md.append(f"   `{bar}` {bytes_count:,} bytes\n")
-        
-        md.append("### Language Distribution")
-        md.append("```")
-        for language, percentage in sorted(ranking_data['language_percentages'].items(), key=lambda x: x[1], reverse=True)[:10]:
-            bar_chars = max(1, int(percentage/2))  # Ensure at least 1 character for visibility
-            md.append(f"{language:<15} {'█' * bar_chars:<25} {percentage:.1f}%")
-        md.append("```\n")
-        
-        md.append("### Repository Breakdown by Language")
-        for language, repos in sorted(ranking_data['language_repositories'].items(), key=lambda x: len(x[1]), reverse=True)[:10]:
-            if language not in ranking_data['excluded_languages']:
-                repo_list = ', '.join(repos[:5])
-                if len(repos) > 5:
-                    repo_list += f" and {len(repos) - 5} more..."
-                md.append(f"- **{language}** ({len(repos)} repos): {repo_list}")
-                md.append("")
         
         return "\n".join(md)
 

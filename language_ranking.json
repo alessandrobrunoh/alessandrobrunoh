@@ -1,20 +1,24 @@
 {
-  "total_repositories": 19,
+  "total_repositories": 20,
+  "owned_repositories": 19,
+  "contributed_repositories": 1,
   "language_stats": {
     "Rust": 120000,
     "Java": 12000,
     "TypeScript": 8000,
     "Jupyter Notebook": 10000,
     "Vue": 10000,
-    "SCSS": 4000
+    "SCSS": 4000,
+    "Dart": 12000
   },
   "language_percentages": {
-    "Rust": 73.17073170731707,
-    "Java": 7.317073170731707,
-    "TypeScript": 4.878048780487805,
-    "Jupyter Notebook": 6.097560975609756,
-    "Vue": 6.097560975609756,
-    "SCSS": 2.4390243902439024
+    "Rust": 68.18181818181817,
+    "Java": 6.8181818181818175,
+    "TypeScript": 4.545454545454546,
+    "Jupyter Notebook": 5.681818181818182,
+    "Vue": 5.681818181818182,
+    "SCSS": 2.272727272727273,
+    "Dart": 6.8181818181818175
   },
   "language_repositories": {
     "Rust": [
@@ -48,6 +52,9 @@
     ],
     "SCSS": [
       "alessandrobrunoh.github.io"
+    ],
+    "Dart": [
+      "KetchApp-Flutter"
     ]
   },
   "ranking": [
@@ -57,6 +64,10 @@
     ],
     [
       "Java",
+      12000
+    ],
+    [
+      "Dart",
       12000
     ],
     [
