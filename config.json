@@ -20,7 +20,8 @@
     "HTML",
     "CSS", 
     "Makefile",
-    "Dockerfile"
+    "Dockerfile",
+    "C++"
   ],
   "included_organizations": [
     "ketchapp-for-study"

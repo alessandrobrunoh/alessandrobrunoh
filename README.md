@@ -1,68 +1,68 @@
-## 💡 Summary
+# Hi there! 👋 I'm Alessandro
 
-* 📚 <b>Studying</b> Tecnologie dei Sistemi Informatici, Unibo
-* 🕹️ <b>Playing</b> Albion Online, Minecraft, Overwatch
-* 🌍 <b>Living</b> in Bologna, Italy
-* 🌱 <b>Learning</b> Rust/C Programming Language
-* 👯 <b>Looking</b> to collaborate on Small Rust/C Projects
-* 🔭 <b>Working</b> on Nothing...
+## 💡 About Me
 
-## 🗿 Coding Skills
+* 📚 **Computer Science Student** at University of Bologna, Italy
+* 🦀 **Passionate about** Rust & Systems Programming
+* 🕹️ **Gaming enthusiast** - Albion Online, Minecraft, Overwatch
+* 🌍 **Based in** Bologna, Italy
 
-### Languages & Technologies Used in My Repositories:
+---
 
-**🦀 Rust** - Primary language (8 repositories)
-- Web frameworks: Leptos, Dioxus, Sycamore
-- Game development: Bevy
-- Backend: Actix, Tokio
-- UI: GPUI
+## 🚀 Tech Stack
 
-**☕ Java** - Enterprise development (3 repositories)
-- Spring Framework
-- Apache Kafka
-- Microservices (API, BFF)
+### 🌟 Primary Technologies
 
-**🎯 Dart** - Mobile development (1 repository)
-- Flutter framework (KetchApp-Flutter)
+**🦀 Rust** - Modern systems programming
+- 🌐 Web: Leptos, Dioxus, Sycamore
+- 🎮 Game Dev: Bevy Engine
+- ⚡ Backend: Actix, Tokio
+- 🖥️ UI: GPUI
 
-**⚡ C++** - Native development (1 repository)
-- Flutter native modules
+**☕ Java** - Enterprise solutions
+- 🍃 Spring Framework
+- 📨 Apache Kafka
+- 🔧 Microservices Architecture
 
-**🌐 TypeScript/JavaScript** - Web development (1 repository)
-- React
+**🎯 Dart** - Cross-platform mobile
+- 📱 Flutter Development
 
-**💚 Vue.js** - Frontend framework (1 repository)
+### 🛠️ Additional Technologies
 
-**📊 Jupyter Notebook** - Data science & machine learning (2 repositories)
+**🌐 Frontend**
+- TypeScript/JavaScript with React
+- Vue.js Framework
+- SCSS/CSS Styling
 
-**🎨 SCSS/CSS** - Web styling (1 repository)
+**📊 Data & Analysis**
+- Jupyter Notebooks
+- Machine Learning Projects
 
-## 🔥 Programming Language Rankings
+---
 
-*Based on analysis of 20 repositories (16 owned + 4 contributed)*
+## 📊 Language Distribution
 
-1. **Rust** - 57.1% (8 repos)
-   `███████████░░░░░░░░░` 120,000 bytes
+*Analysis across personal and contributed repositories*
 
-2. **Java** - 17.1% (3 repos)
-   `███░░░░░░░░░░░░░░░░░` 36,000 bytes
+**🥇 Rust** - 57.1%  
+`█████████████████░░░` 120,000 bytes
 
-3. **Dart** - 5.7% (1 repos)
-   `█░░░░░░░░░░░░░░░░░░░` 12,000 bytes
+**🥈 Java** - 17.1%  
+`███████░░░░░░░░░░░░░` 36,000 bytes
 
-4. **Jupyter Notebook** - 4.8% (2 repos)
-   `█░░░░░░░░░░░░░░░░░░░` 10,000 bytes
+**🥉 Dart** - 5.7%  
+`███░░░░░░░░░░░░░░░░░` 12,000 bytes
 
-5. **Vue** - 4.8% (1 repos)
-   `█░░░░░░░░░░░░░░░░░░░` 10,000 bytes
+**📊 Jupyter Notebook** - 4.8%  
+`██░░░░░░░░░░░░░░░░░░` 10,000 bytes
 
-6. **C++** - 4.8% (1 repos)
-   `█░░░░░░░░░░░░░░░░░░░` 10,000 bytes
+**💚 Vue** - 4.8%  
+`██░░░░░░░░░░░░░░░░░░` 10,000 bytes
 
-7. **TypeScript** - 3.8% (1 repos)
-   `█░░░░░░░░░░░░░░░░░░░` 8,000 bytes
+**⚡ TypeScript** - 3.8%  
+`██░░░░░░░░░░░░░░░░░░` 8,000 bytes
 
-8. **SCSS** - 1.9% (1 repos)
-   `█░░░░░░░░░░░░░░░░░░░` 4,000 bytes
+**🎨 SCSS** - 1.9%  
+`█░░░░░░░░░░░░░░░░░░░` 4,000 bytes
 
 
