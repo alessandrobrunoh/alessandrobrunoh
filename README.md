@@ -42,7 +42,6 @@
 ---
 
 ## 🔥 Programming Language Rankings
-## 🔥 Programming Language Rankings
 
 *Based on analysis of 20 repositories (16 owned + 4 contributed)*
 
