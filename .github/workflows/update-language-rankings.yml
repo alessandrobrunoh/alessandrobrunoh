@@ -39,22 +39,21 @@ jobs:
           python repo_language_analyzer.py
 
       - name: Update README with language rankings
+        env:
+          NEW_RANKING: ${{ steps.read_ranking.outputs.data }}
         run: |
-          # Create a backup of current README
-          cp README.md README.md.backup
-
-          # Read the new language ranking
-          new_ranking=$(cat language_ranking.md)
-
           # Replace the language ranking section in README.md
           python3 << EOF
           import re
+          import os
+
+          new_ranking = os.environ['NEW_RANKING']
 
           with open('README.md', 'r') as f:
               content = f.read()
 
           pattern = r'(?s)## 🔥 Programming Language Rankings.*?(?=## |\Z)'
-          new_section = f'''## 🔥 Programming Language Rankings\n{new_ranking}'''
+          new_section = f'## 🔥 Programming Language Rankings\n{new_ranking}'
 
           if re.search(pattern, content):
               new_content = re.sub(pattern, new_section, content, 1)
@@ -64,24 +63,29 @@ jobs:
           with open('README.md', 'w') as f:
               f.write(new_content)
           EOF
+        id: update_readme_ranking
+
+      - name: Read language stats file
+        id: read_stats
+        run: echo "data=$(cat language_ranking.json)" >> $GITHUB_OUTPUT
 
       - name: Update README with language stats
+        env:
+          LANGUAGE_STATS: ${{ steps.read_stats.outputs.data }}
         run: |
-          # Read the language stats
-          language_stats=$(cat language_ranking.json)
-
-          # Create the new section
-          new_section="<details>\n<summary>Click to see Language Stats</summary>\n\n\`\`\`json\n${language_stats}\n\`\`\`\n</details>"
-
           # Replace the language stats section in README.md
           python3 << EOF
           import re
+          import os
+
+          language_stats = os.environ['LANGUAGE_STATS']
+          new_section_content = f"<details>\n<summary>Click to see Language Stats</summary>\n\n```json\n{language_stats}\n```\n</details>"
 
           with open('README.md', 'r') as f:
               content = f.read()
 
           pattern = r'(?s)## 📊 Language Stats.*?(?=## |\Z)'
-          new_section = f'''## 📊 Language Stats\n{new_section}'''
+          new_section = f'## 📊 Language Stats\n{new_section_content}'
 
           if re.search(pattern, content):
               new_content = re.sub(pattern, new_section, content, 1)
@@ -91,6 +95,7 @@ jobs:
           with open('README.md', 'w') as f:
               f.write(new_content)
           EOF
+        id: update_readme_stats
 
       - name: Check for changes
         id: verify-changed-files
