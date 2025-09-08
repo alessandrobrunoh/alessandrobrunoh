@@ -14,17 +14,17 @@
 
 ## 🌟 **Primary Technologies** 🌟
 
-### 🦀 **RUST** 🦀  
+### 🦀 **RUST** 
 - 🌐 **Web Frameworks:** Leptos, Dioxus, Sycamore  
 - ⚡ **Backend:** Actix, Tokio, Axum
 - 🖥️ **UI Development:** GPUI  
 
-### ☕ **JAVA** ☕  
+### ☕ **JAVA** 
 - 🍃 **Spring Framework** - Full-stack development  
 - 📨 **Apache Kafka** - Message streaming  
 - 🔧 **Microservices** - Distributed architecture    
 
-### 🎯 **DART** 🎯  
+### 🎯 **DART** 
 - 📱 **Flutter** - Native mobile apps  
 - 🎨 **Material Design** - Beautiful UIs    
 
