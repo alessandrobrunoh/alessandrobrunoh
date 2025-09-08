@@ -82,8 +82,19 @@ jobs:
           git config --local user.name "GitHub Action"
           git add README.md language_ranking.md language_ranking.json
           git commit -m "🔄 Update language rankings - $(date +'%Y-%m-%d')"
-          git pull --rebase
-          git push
+
+          for i in 1 2 3
+          do
+            git pull --rebase
+            if git push; then
+              echo "Push successful on attempt $i"
+              exit 0
+            fi
+            echo "Push failed on attempt $i. Retrying in 10 seconds..."
+            sleep 10
+          done
+          echo "Failed to push after 3 attempts"
+          exit 1
 
       - name: Create summary
         run: |
