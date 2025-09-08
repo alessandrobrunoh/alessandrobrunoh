@@ -62,25 +62,3 @@
 
 6. **SCSS** - 2.1% (1 repos)
    `█░░░░░░░░░░░░░░░░░░░` 4,000 bytes
-
-## 📊 Language Stats
-<details>
-<summary>Click to see Language Stats</summary>
-
-```json
-{
-  "total_repositories": 20,
-  "total_bytes": 190000,
-  "ranking": [
-    ["Rust", 120000],
-    ["Java", 36000],
-    ["Dart", 12000],
-    ["Vue", 10000],
-    ["TypeScript", 8000],
-    ["SCSS", 4000]
-  ]
-}
-```
-</details>
-
-
