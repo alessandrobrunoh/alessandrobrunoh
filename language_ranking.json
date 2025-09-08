@@ -1,24 +1,26 @@
 {
   "total_repositories": 20,
-  "owned_repositories": 19,
-  "contributed_repositories": 1,
+  "owned_repositories": 16,
+  "contributed_repositories": 4,
   "language_stats": {
     "Rust": 120000,
-    "Java": 12000,
+    "Java": 36000,
     "TypeScript": 8000,
     "Jupyter Notebook": 10000,
     "Vue": 10000,
     "SCSS": 4000,
-    "Dart": 12000
+    "Dart": 12000,
+    "C++": 10000
   },
   "language_percentages": {
-    "Rust": 68.18181818181817,
-    "Java": 6.8181818181818175,
-    "TypeScript": 4.545454545454546,
-    "Jupyter Notebook": 5.681818181818182,
-    "Vue": 5.681818181818182,
-    "SCSS": 2.272727272727273,
-    "Dart": 6.8181818181818175
+    "Rust": 57.14285714285714,
+    "Java": 17.142857142857142,
+    "TypeScript": 3.8095238095238098,
+    "Jupyter Notebook": 4.761904761904762,
+    "Vue": 4.761904761904762,
+    "SCSS": 1.9047619047619049,
+    "Dart": 5.714285714285714,
+    "C++": 4.761904761904762
   },
   "language_repositories": {
     "Rust": [
@@ -32,7 +34,9 @@
       "RustProject"
     ],
     "Java": [
-      "KetchApp-Kafka"
+      "KetchApp-Kafka",
+      "KetchApp-API",
+      "KetchApp-BFF"
     ],
     "CSS": [
       "Progetto-Fondamenti-Web"
@@ -55,6 +59,9 @@
     ],
     "Dart": [
       "KetchApp-Flutter"
+    ],
+    "C++": [
+      "KetchApp-Flutter"
     ]
   },
   "ranking": [
@@ -64,7 +71,7 @@
     ],
     [
       "Java",
-      12000
+      36000
     ],
     [
       "Dart",
@@ -76,6 +83,10 @@
     ],
     [
       "Vue",
+      10000
+    ],
+    [
+      "C++",
       10000
     ],
     [
@@ -92,5 +103,10 @@
     "CSS",
     "Makefile",
     "Dockerfile"
+  ],
+  "excluded_repositories": [
+    "Card-Game-Builder",
+    "My-Zed-IDE-Snippets",
+    "alessandrobrunoh"
   ]
 }

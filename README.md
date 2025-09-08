@@ -17,45 +17,52 @@
 - Backend: Actix, Tokio
 - UI: GPUI
 
-**☕ Java** - Enterprise development
+**☕ Java** - Enterprise development (3 repositories)
 - Spring Framework
 - Apache Kafka
+- Microservices (API, BFF)
 
-**🎯 Dart** - Mobile development
+**🎯 Dart** - Mobile development (1 repository)
 - Flutter framework (KetchApp-Flutter)
 
-**🌐 TypeScript/JavaScript** - Web development
+**⚡ C++** - Native development (1 repository)
+- Flutter native modules
+
+**🌐 TypeScript/JavaScript** - Web development (1 repository)
 - React
 
-**💚 Vue.js** - Frontend framework
+**💚 Vue.js** - Frontend framework (1 repository)
 
-**📊 Jupyter Notebook** - Data science & machine learning
+**📊 Jupyter Notebook** - Data science & machine learning (2 repositories)
 
-**🎨 SCSS/CSS** - Web styling
+**🎨 SCSS/CSS** - Web styling (1 repository)
 
 ## 🔥 Programming Language Rankings
 
-*Based on analysis of 20 repositories (19 owned + 1 contributed)*
+*Based on analysis of 20 repositories (16 owned + 4 contributed)*
 
-1. **Rust** - 68.2% (8 repos)
-   `█████████████░░░░░░░` 120,000 bytes
+1. **Rust** - 57.1% (8 repos)
+   `███████████░░░░░░░░░` 120,000 bytes
 
-2. **Java** - 6.8% (1 repos)
+2. **Java** - 17.1% (3 repos)
+   `███░░░░░░░░░░░░░░░░░` 36,000 bytes
+
+3. **Dart** - 5.7% (1 repos)
    `█░░░░░░░░░░░░░░░░░░░` 12,000 bytes
 
-3. **Dart** - 6.8% (1 repos)
-   `█░░░░░░░░░░░░░░░░░░░` 12,000 bytes
-
-4. **Jupyter Notebook** - 5.7% (2 repos)
+4. **Jupyter Notebook** - 4.8% (2 repos)
    `█░░░░░░░░░░░░░░░░░░░` 10,000 bytes
 
-5. **Vue** - 5.7% (1 repos)
+5. **Vue** - 4.8% (1 repos)
    `█░░░░░░░░░░░░░░░░░░░` 10,000 bytes
 
-6. **TypeScript** - 4.5% (1 repos)
+6. **C++** - 4.8% (1 repos)
+   `█░░░░░░░░░░░░░░░░░░░` 10,000 bytes
+
+7. **TypeScript** - 3.8% (1 repos)
    `█░░░░░░░░░░░░░░░░░░░` 8,000 bytes
 
-7. **SCSS** - 2.3% (1 repos)
+8. **SCSS** - 1.9% (1 repos)
    `█░░░░░░░░░░░░░░░░░░░` 4,000 bytes
 
 
