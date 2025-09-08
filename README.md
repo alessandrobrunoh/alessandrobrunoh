@@ -14,58 +14,33 @@
 
 ## 🌟 **Primary Technologies** 🌟
 
-### 🦀 **Rust** 
-- 🌐 **Web Frameworks:** Leptos, Dioxus, Sycamore  
+### 🦀 **Rust**
+- 🌐 **Web Frameworks:** Leptos, Dioxus, Sycamore
 - ⚡ **Backend:** Actix, Tokio, Axum
-- 🖥️ **UI Development:** GPUI  
+- 🖥️ **UI Development:** GPUI
 
-### ☕ **Java** 
-- 🍃 **Spring Framework** - Full-stack development  
-- 📨 **Apache Kafka** - Message streaming  
-- 🔧 **Microservices** - Distributed architecture    
+### ☕ **Java**
+- 🍃 **Spring Framework** - Full-stack development
+- 📨 **Apache Kafka** - Message streaming
+- 🔧 **Microservices** - Distributed architecture
 
-### 🎯 **Dart** 
-- 📱 **Flutter** - Native mobile apps  
-- 🎨 **Material Design** - Beautiful UIs    
+### 🎯 **Dart**
+- 📱 **Flutter** - Native mobile apps
+- 🎨 **Material Design** - Beautiful UIs
 
-## 🛠️ **Additional Technologies** 
+## 🛠️ **Additional Technologies**
 
-### 🌐 **FrontEnd Development**  
-- **⚛️ React** + TypeScript/JavaScript  
-- **💚 Vue.js** - Progressive framework  
-- **🎨 SCSS/CSS** - Modern styling  
+### 🌐 **FrontEnd Development**
+- **⚛️ React** + TypeScript/JavaScript
+- **💚 Vue.js** - Progressive framework
+- **🎨 SCSS/CSS** - Modern styling
 
-### 📊 **Data & Analytics**  
-- **🐍 Python** - Data science & ML  
-- **📈 Machine Learning** - Predictive models  
+### 📊 **Data & Analytics**
+- **🐍 Python** - Data science & ML
+- **📈 Machine Learning** - Predictive models
 
 ---
 
-## 📊 Language Distribution
-
-*Analysis across personal and contributed repositories*
-
-**🥇 Rust** - 63.2%  
-`████████████████████` 120,000 bytes / 4,500 lines of code
-
-**🥈 Java** - 18.9%  
-`██████░░░░░░░░░░░░░░` 36,000 bytes / 1,800 lines of code
-
-**🥉 Dart** - 6.3%  
-`███░░░░░░░░░░░░░░░░░` 12,000 bytes / 800 lines of code
-
-**💚 Vue** - 5.3%  
-`██░░░░░░░░░░░░░░░░░░` 10,000 bytes / 600 lines of code
-
-**⚡ TypeScript** - 4.2%  
-`██░░░░░░░░░░░░░░░░░░` 8,000 bytes / 400 lines of code
-
-**🎨 SCSS** - 2.1%  
-`█░░░░░░░░░░░░░░░░░░░` 4,000 bytes / 250 lines of code
-
-
-
-## 🔥 Programming Language Rankings
 ## 🔥 Programming Language Rankings
 
 *Based on analysis of 20 repositories (16 owned + 4 contributed)*
@@ -87,9 +62,25 @@
 
 6. **SCSS** - 2.1% (1 repos)
    `█░░░░░░░░░░░░░░░░░░░` 4,000 bytes
+
 ## 📊 Language Stats
 <details>
 <summary>Click to see Language Stats</summary>
 
-
+```json
+{
+  "total_repositories": 20,
+  "total_bytes": 190000,
+  "ranking": [
+    ["Rust", 120000],
+    ["Java", 36000],
+    ["Dart", 12000],
+    ["Vue", 10000],
+    ["TypeScript", 8000],
+    ["SCSS", 4000]
+  ]
+}
+```
 </details>
+
+
