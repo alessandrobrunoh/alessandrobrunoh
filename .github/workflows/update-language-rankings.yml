@@ -3,105 +3,124 @@ name: Update Language Rankings
 on:
   schedule:
     # Run every week on Sunday at 00:00 UTC
-    - cron: '0 0 * * 0'
+    - cron: "0 0 * * 0"
   workflow_dispatch: # Allow manual trigger
-  push:
-    branches: [ main ]
-    paths:
-      - 'repo_language_analyzer.py'
 
 jobs:
   update-rankings:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.9'
-        
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        # Add any dependencies if needed in the future
-        
-    - name: Run language analysis
-      run: |
-        python repo_language_analyzer.py
-        
-    - name: Update README with language rankings
-      run: |
-        # Create a backup of current README
-        cp README.md README.md.backup
-        
-        # Check if language ranking section exists
-        if grep -q "## 🔥 Programming Language Rankings" README.md; then
-          # Replace existing section
-          python3 << 'EOF'
-import re
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-# Read the current README
-with open('README.md', 'r') as f:
-    content = f.read()
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
 
-# Read the new language ranking
-with open('language_ranking.md', 'r') as f:
-    new_ranking = f.read()
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # Add any dependencies if needed in the future
 
-# Pattern to match the language ranking section
-pattern = r'## 🔥 Programming Language Rankings.*?(?=##|\Z)'
+      - name: Update language analyzer script
+        run: |
+          curl -o repo_language_analyzer.py https://raw.githubusercontent.com/alessandrobrunoh/alessandrobrunoh/main/repo_language_analyzer.py
 
-# Replace or add the language ranking section
-if re.search(pattern, content, re.DOTALL):
-    # Replace existing section
-    new_content = re.sub(pattern, new_ranking.rstrip() + '\n\n', content, flags=re.DOTALL)
-else:
-    # Add new section before the last section (Coding Stats)
-    if '## 📊 Coding Stats' in content:
-        new_content = content.replace('## 📊 Coding Stats', new_ranking + '\n## 📊 Coding Stats')
-    else:
-        # Add at the end
-        new_content = content + '\n\n' + new_ranking
+      - name: Update config file
+        run: |
+          curl -o config.json https://raw.githubusercontent.com/alessandrobrunoh/alessandrobrunoh/main/config.json
 
-# Write the updated README
-with open('README.md', 'w') as f:
-    f.write(new_content)
-EOF
-        
-    - name: Check for changes
-      id: verify-changed-files
-      run: |
-        if [ -n "$(git status --porcelain)" ]; then
-          echo "changed=true" >> $GITHUB_OUTPUT
-        else
-          echo "changed=false" >> $GITHUB_OUTPUT
-        fi
-        
-    - name: Commit and push changes
-      if: steps.verify-changed-files.outputs.changed == 'true'
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add README.md language_ranking.md language_ranking.json
-        git commit -m "🔄 Update language rankings - $(date +'%Y-%m-%d')"
-        git push
-        
-    - name: Create summary
-      run: |
-        echo "## Language Rankings Updated! 🎉" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
-        echo "### Top 5 Languages:" >> $GITHUB_STEP_SUMMARY
-        python3 << 'EOF'
-import json
-with open('language_ranking.json', 'r') as f:
-    data = json.load(f)
+      - name: Run language analysis
+        run: |
+          python repo_language_analyzer.py
 
-for i, (lang, bytes_count) in enumerate(data['ranking'][:5], 1):
-    percentage = data['language_percentages'][lang]
-    print(f"{i}. **{lang}**: {percentage:.1f}% ({bytes_count:,} bytes)")
-EOF
+      - name: Update README with language rankings
+        run: |
+          # Create a backup of current README
+          cp README.md README.md.backup
+
+          # Read the new language ranking
+          new_ranking=$(cat language_ranking.md)
+
+          # Replace the language ranking section in README.md
+          python3 << EOF
+          import re
+
+          with open('README.md', 'r') as f:
+              content = f.read()
+
+          pattern = r'(?s)## 🔥 Programming Language Rankings.*?(?=## |\Z)'
+          new_section = f'''## 🔥 Programming Language Rankings\n{new_ranking}'''
+
+          if re.search(pattern, content):
+              new_content = re.sub(pattern, new_section, content, 1)
+          else:
+              new_content = content + "\n" + new_section
+
+          with open('README.md', 'w') as f:
+              f.write(new_content)
+          EOF
+
+      - name: Update README with language stats
+        run: |
+          # Read the language stats
+          language_stats=$(cat language_ranking.json)
+
+          # Create the new section
+          new_section="<details>\n<summary>Click to see Language Stats</summary>\n\n\`\`\`json\n${language_stats}\n\`\`\`\n</details>"
+
+          # Replace the language stats section in README.md
+          python3 << EOF
+          import re
+
+          with open('README.md', 'r') as f:
+              content = f.read()
+
+          pattern = r'(?s)## 📊 Language Stats.*?(?=## |\Z)'
+          new_section = f'''## 📊 Language Stats\n{new_section}'''
+
+          if re.search(pattern, content):
+              new_content = re.sub(pattern, new_section, content, 1)
+          else:
+              new_content = content + "\n" + new_section
+
+          with open('README.md', 'w') as f:
+              f.write(new_content)
+          EOF
+
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md language_ranking.md language_ranking.json
+          git commit -m "🔄 Update language rankings - $(date +'%Y-%m-%d')"
+          git push
+
+      - name: Create summary
+        run: |
+          echo "## Language Rankings Updated! 🎉" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Top 5 Languages:" >> $GITHUB_STEP_SUMMARY
+          python3 << EOF
+          import json
+          with open('language_ranking.json', 'r') as f:
+              data = json.load(f)
+
+          for i, (lang, bytes_count) in enumerate(data['ranking'][:5], 1):
+              percentage = data['language_percentages'][lang]
+              print(f"{i}. **{lang}**: {percentage:.1f}% ({bytes_count:,} bytes)")
+          EOF
