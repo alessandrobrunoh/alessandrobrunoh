@@ -32,18 +32,20 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
         
-    - name: Run profile stats script
+    - name: Download and run profile stats script
       env:
         GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
-      run: python3 update-profile-stats-script.py
+      run: |
+        curl -o script.py https://raw.githubusercontent.com/alessandrobrunoh/update-profile-stats-script/refs/heads/main/script.py
+        python3 script.py
       
     - name: Commit and push updated files
       env:
-        GITHUB_TOKEN: ${{ secrets.GITH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add language_ranking.json language_ranking.md README.md
+        git add README.md
         git diff --staged --quiet || git commit -m "Update profile stats [automated]"
         git push
