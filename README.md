@@ -66,45 +66,45 @@
 
 *Based on analysis of 24 repositories (24 owned + 0 contributed)*
 
-🥇 Jupyter Notebook - 75.6%
+🥇 Java - 29.0%
 
-███████████████░░░░░ 4,807,416 bytes / 60,092 lines of code
+█████░░░░░░░░░░░░░░░ 451,448 bytes / 5,642 lines of code
 
-🥈 Java - 7.1%
+🥈 TypeScript - 25.5%
 
-█░░░░░░░░░░░░░░░░░░░ 451,448 bytes / 5,642 lines of code
+█████░░░░░░░░░░░░░░░ 395,938 bytes / 4,948 lines of code
 
-🥉 TypeScript - 6.2%
+🥉 Rust - 14.6%
 
-█░░░░░░░░░░░░░░░░░░░ 395,938 bytes / 4,948 lines of code
+██░░░░░░░░░░░░░░░░░░ 226,231 bytes / 2,823 lines of code
 
-4. Rust - 3.6%
-
-█░░░░░░░░░░░░░░░░░░░ 226,231 bytes / 2,823 lines of code
-
-5. C - 2.0%
+4. C - 8.2%
 
 █░░░░░░░░░░░░░░░░░░░ 127,915 bytes / 1,598 lines of code
 
-6. SCSS - 1.5%
+5. SCSS - 6.2%
 
 █░░░░░░░░░░░░░░░░░░░ 96,419 bytes / 1,202 lines of code
 
-7. Python - 1.4%
+6. Python - 5.8%
 
-█░░░░░░░░░░░░░░░░░░░ 90,473 bytes / 1,130 lines of code
+█░░░░░░░░░░░░░░░░░░░ 89,704 bytes / 1,120 lines of code
 
-8. Vue - 1.3%
+7. Vue - 5.5%
 
 █░░░░░░░░░░░░░░░░░░░ 85,673 bytes / 1,070 lines of code
 
-9. JavaScript - 0.7%
+8. JavaScript - 2.8%
 
 █░░░░░░░░░░░░░░░░░░░ 43,238 bytes / 539 lines of code
 
-10. C++ - 0.2%
+9. C++ - 0.7%
 
 █░░░░░░░░░░░░░░░░░░░ 10,951 bytes / 136 lines of code
+
+10. PLpgSQL - 0.7%
+
+█░░░░░░░░░░░░░░░░░░░ 10,308 bytes / 127 lines of code
 
 ## 📊 User Statistics
 
@@ -123,8 +123,8 @@
 
 ## 💭 Quote of the Moment
 
-> "In programming, the hard part isn't solving problems, but deciding what problems to solve." - Paul Graham
+> "The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie
 
 ---
 
-*🤖 This profile was automatically updated on 2025-09-09 at 21:02:13 UTC*
+*🤖 This profile was automatically updated on 2025-09-09 at 21:05:27 UTC*

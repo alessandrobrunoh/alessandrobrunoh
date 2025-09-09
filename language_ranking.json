@@ -6,14 +6,13 @@
     "Rust": 226231,
     "PLpgSQL": 10308,
     "RenderScript": 2,
-    "Python": 90473,
+    "Python": 89704,
     "SCSS": 96419,
     "JavaScript": 43238,
     "Shell": 3637,
     "Batchfile": 2025,
     "Java": 451448,
     "DTrace": 4293,
-    "Jupyter Notebook": 4807416,
     "Vue": 85673,
     "TypeScript": 395938,
     "C": 127915,
@@ -27,14 +26,13 @@
     "Rust": 2823,
     "PLpgSQL": 127,
     "RenderScript": 2,
-    "Python": 1130,
+    "Python": 1120,
     "SCSS": 1202,
     "JavaScript": 539,
     "Shell": 44,
     "Batchfile": 24,
     "Java": 5642,
     "DTrace": 53,
-    "Jupyter Notebook": 60092,
     "Vue": 1070,
     "TypeScript": 4948,
     "C": 1598,
@@ -45,25 +43,24 @@
     "Tree-sitter Query": 18
   },
   "language_percentages": {
-    "Rust": 3.555777905298813,
-    "PLpgSQL": 0.1620156329053939,
-    "RenderScript": 3.1434930715055085e-05,
-    "Python": 1.4220062432915892,
-    "SCSS": 1.5154622923074481,
-    "JavaScript": 0.6795917671287758,
-    "Shell": 0.05716442150532767,
-    "Batchfile": 0.031827867348993275,
-    "Java": 7.095618300725095,
-    "DTrace": 0.06747507877986574,
-    "Jupyter Notebook": 75.56039443922361,
-    "Vue": 1.3465624095754571,
-    "TypeScript": 6.22314179872874,
-    "C": 2.010499581208135,
-    "C++": 0.1721219631302841,
-    "CMake": 0.04393031567428948,
-    "Swift": 0.022774607303057408,
-    "Go": 0.010750746304548838,
-    "Tree-sitter Query": 0.022853194629845044
+    "Rust": 14.556443206765824,
+    "PLpgSQL": 0.6632504677756015,
+    "RenderScript": 0.00012868654788040387,
+    "Python": 5.771849045531875,
+    "SCSS": 6.203914130040331,
+    "JavaScript": 2.7820744786264515,
+    "Shell": 0.23401648732051444,
+    "Batchfile": 0.13029512972890894,
+    "Java": 29.047642333756286,
+    "DTrace": 0.27622567502528694,
+    "Vue": 5.51248130827892,
+    "TypeScript": 25.475947197335675,
+    "C": 8.23046988606093,
+    "C++": 0.7046231929191513,
+    "CMake": 0.17983945066286441,
+    "Swift": 0.0932334039393526,
+    "Go": 0.04401079937509812,
+    "Tree-sitter Query": 0.09355512030905361
   },
   "language_repositories": {
     "Rust": [
@@ -184,10 +181,6 @@
   },
   "ranking": [
     [
-      "Jupyter Notebook",
-      4807416
-    ],
-    [
       "Java",
       451448
     ],
@@ -209,7 +202,7 @@
     ],
     [
       "Python",
-      90473
+      89704
     ],
     [
       "Vue",
@@ -264,7 +257,8 @@
     "HTML",
     "CSS",
     "Makefile",
-    "Dockerfile"
+    "Dockerfile",
+    "Jupyter Notebook"
   ],
   "excluded_repositories": [],
   "user_stats": {
