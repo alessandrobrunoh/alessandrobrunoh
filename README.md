@@ -50,12 +50,12 @@
 
 ### 📊 Data & Analytics
 
-**🐍 Python**
+**🐍 Jupyter Notebook**
 
 - 🐍 **Python** - Data science & machine learning
 - 📈 **Machine Learning** - Predictive analytics
 
-**🐍 Jupyter Notebook**
+**🐍 Python**
 
 - 🐍 **Python** - Data science & machine learning
 - 📈 **Machine Learning** - Predictive analytics
@@ -66,35 +66,35 @@
 
 *Based on analysis of 24 repositories (24 owned + 0 contributed)*
 
-🥇 Java - 29.1%
+🥇 Java - 29.9%
 
 █████░░░░░░░░░░░░░░░ 451,448 bytes / 5,642 lines of code
 
-🥈 TypeScript - 25.5%
+🥈 TypeScript - 26.3%
 
 █████░░░░░░░░░░░░░░░ 395,938 bytes / 4,948 lines of code
 
-🥉 Rust - 14.6%
+🥉 Rust - 15.0%
 
-██░░░░░░░░░░░░░░░░░░ 226,231 bytes / 2,823 lines of code
+███░░░░░░░░░░░░░░░░░ 226,231 bytes / 2,823 lines of code
 
-4. C - 8.3%
+4. C - 8.5%
 
 █░░░░░░░░░░░░░░░░░░░ 127,915 bytes / 1,598 lines of code
 
-5. SCSS - 6.2%
+5. SCSS - 6.4%
 
 █░░░░░░░░░░░░░░░░░░░ 96,419 bytes / 1,202 lines of code
 
-6. Python - 5.5%
-
-█░░░░░░░░░░░░░░░░░░░ 85,813 bytes / 1,071 lines of code
-
-7. Vue - 5.5%
+6. Vue - 5.7%
 
 █░░░░░░░░░░░░░░░░░░░ 85,673 bytes / 1,070 lines of code
 
-8. JavaScript - 2.8%
+7. Python - 2.9%
+
+█░░░░░░░░░░░░░░░░░░░ 43,602 bytes / 544 lines of code
+
+8. JavaScript - 2.9%
 
 █░░░░░░░░░░░░░░░░░░░ 43,238 bytes / 539 lines of code
 
@@ -123,10 +123,10 @@
 
 ## 💭 Quote of the Moment
 
-> "Code is like humor. When you have to explain it, it's bad." - Cory House
+> "Programs must be written for people to read, and only incidentally for machines to execute." - Harold Abelson
 
 ---
 
-*🤖 This profile was automatically updated on 2025-09-09 at 21:58:31 UTC*
+*🤖 This profile was automatically updated on 2025-09-09 at 23:10:00 UTC*
 
 *⭐ If you are interest to use the same script, watch the main repo [update-profile-stats-script](https://github.com/alessandrobrunoh/update-profile-stats-script). Don't forget to leave a little star.*
