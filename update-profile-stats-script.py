@@ -68,15 +68,7 @@ class GitHubLanguageAnalyzer:
             {"name": "My-Zed-IDE-Snippets", "languages": [], "fork": False, "owned": True},
             {"name": "alessandrobrunoh", "languages": [], "fork": False, "owned": True},
             {"name": "GPUI-Multi-Page-Ai-Terminal", "languages": [], "fork": False, "owned": True},
-            {"name": "alessandrobrunoh.github.io", "languages": ["SCSS"], "fork": False, "owned": True},
-            # Additional potential repositories to reach target count
-            {"name": "Rust-Web-Framework-Comparison", "languages": ["Rust"], "fork": False, "owned": True},
-            {"name": "Java-Microservices-Demo", "languages": ["Java"], "fork": False, "owned": True},
-            {"name": "Flutter-Mobile-App", "languages": ["Dart"], "fork": False, "owned": True},
-            {"name": "TypeScript-React-Components", "languages": ["TypeScript"], "fork": False, "owned": True},
-            {"name": "Python-Data-Analysis-Scripts", "languages": ["Python"], "fork": False, "owned": True},
-            {"name": "Vue-Frontend-Templates", "languages": ["Vue"], "fork": False, "owned": True},
-            {"name": "CSS-Animation-Library", "languages": ["CSS"], "fork": False, "owned": True},
+            {"name": "alessandrobrunoh.github.io", "languages": ["SCSS", "Rust"], "fork": False, "owned": True},
             # Contributed repositories - Dibbiii organization
             {"name": "KetchApp-Flutter", "languages": ["Dart", "C++"], "fork": False, "owned": False, "contributor": True, "organization": "Dibbiii"},
             {"name": "KetchApp-API", "languages": ["Java"], "fork": False, "owned": False, "contributor": True, "organization": "Dibbiii"},
@@ -92,7 +84,7 @@ class GitHubLanguageAnalyzer:
                 return json.load(f)
         return {
             "excluded_repositories": [],
-            "excluded_languages": ["HTML", "CSS", "Makefile", "Dockerfile"],
+            "excluded_languages": ["HTML", "CSS", "Makefile", "Dockerfile", "Jupyter Notebook"],
             "included_organizations": [],
             "included_contributors": []
         }
