@@ -123,8 +123,8 @@
 
 ## 💭 Quote of the Moment
 
-> "The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie
+> "Programming is the art of telling another human being what one wants the computer to do." - Donald Knuth
 
 ---
 
-*🤖 This profile was automatically updated on 2025-09-09 at 21:05:27 UTC*
+*🤖 This profile was automatically updated on 2025-09-09 at 21:06:24 UTC*
