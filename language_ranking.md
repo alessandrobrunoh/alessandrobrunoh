@@ -1,15 +1,3 @@
-# Hi there! 👋 I'm Alessandro
-
-## 💡 About Me
-
-* 📚 **Computer Science Student** at University of Bologna, Italy
-* 🦀 **Passionate about** Rust, Backend Development, Frontend Design, and User Experience
-* 🎨 **Design tools** - Figma for UI/UX design and prototyping
-* 🕹️ **Gaming enthusiast** - Albion Online, Minecraft, Overwatch, No Man's Sky
-* 🌍 **Based in** Bologna, Italy
-
----
-
 ## 🚀 Tech Stack
 
 ### ⭐ Primary Technologies
@@ -106,6 +94,7 @@
 
 █░░░░░░░░░░░░░░░░░░░ 10,308 bytes / 127 lines of code
 
+
 ## 📊 User Statistics
 
 | Metric | Count |
@@ -118,13 +107,3 @@
 | 📁 Total Repositories | 24 |
 | 👤 Owned Repositories | 24 |
 | 🤝 Contributed Repositories | 0 |
-
----
-
-## 💭 Quote of the Moment
-
-> "Programming is the art of telling another human being what one wants the computer to do." - Donald Knuth
-
----
-
-*🤖 This profile was automatically updated on 2025-09-09 at 21:07:26 UTC*
