@@ -66,45 +66,45 @@
 
 *Based on analysis of 24 repositories (24 owned + 0 contributed)*
 
-🥇 Java - 29.0%
+🥇 Jupyter Notebook - 75.6%
 
-█████░░░░░░░░░░░░░░░ 451,448 bytes / 5,642 lines of code
+███████████████░░░░░ 4,807,416 bytes / 60,092 lines of code
 
-🥈 TypeScript - 25.5%
+🥈 Java - 7.1%
 
-█████░░░░░░░░░░░░░░░ 395,938 bytes / 4,948 lines of code
+█░░░░░░░░░░░░░░░░░░░ 451,448 bytes / 5,642 lines of code
 
-🥉 Rust - 14.6%
+🥉 TypeScript - 6.2%
 
-██░░░░░░░░░░░░░░░░░░ 226,231 bytes / 2,823 lines of code
+█░░░░░░░░░░░░░░░░░░░ 395,938 bytes / 4,948 lines of code
 
-4. C - 8.2%
+4. Rust - 3.6%
+
+█░░░░░░░░░░░░░░░░░░░ 226,231 bytes / 2,823 lines of code
+
+5. C - 2.0%
 
 █░░░░░░░░░░░░░░░░░░░ 127,915 bytes / 1,598 lines of code
 
-5. SCSS - 6.2%
+6. SCSS - 1.5%
 
 █░░░░░░░░░░░░░░░░░░░ 96,419 bytes / 1,202 lines of code
 
-6. Python - 5.8%
+7. Python - 1.4%
 
-█░░░░░░░░░░░░░░░░░░░ 89,704 bytes / 1,120 lines of code
+█░░░░░░░░░░░░░░░░░░░ 89,542 bytes / 1,118 lines of code
 
-7. Vue - 5.5%
+8. Vue - 1.3%
 
 █░░░░░░░░░░░░░░░░░░░ 85,673 bytes / 1,070 lines of code
 
-8. JavaScript - 2.8%
+9. JavaScript - 0.7%
 
 █░░░░░░░░░░░░░░░░░░░ 43,238 bytes / 539 lines of code
 
-9. C++ - 0.7%
+10. C++ - 0.2%
 
 █░░░░░░░░░░░░░░░░░░░ 10,951 bytes / 136 lines of code
-
-10. PLpgSQL - 0.7%
-
-█░░░░░░░░░░░░░░░░░░░ 10,308 bytes / 127 lines of code
 
 ## 📊 User Statistics
 
@@ -123,8 +123,10 @@
 
 ## 💭 Quote of the Moment
 
-> "In programming, the hard part isn't solving problems, but deciding what problems to solve." - Paul Graham
+> "The best error message is the one that never shows up." - Thomas Fuchs
 
 ---
 
-*🤖 This profile was automatically updated on 2025-09-09 at 21:08:11 UTC*
+*🤖 This profile was automatically updated on 2025-09-09 at 21:56:11 UTC*
+
+⭐ If you are interest to use the same script, watch the main repo [update-profile-stats-script](https://github.com/alessandrobrunoh/update-profile-stats-script). Don't forget to leave a little star.
