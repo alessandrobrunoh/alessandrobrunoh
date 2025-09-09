@@ -47,5 +47,5 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add README.md
-        git diff --staged --quiet || git commit -m "Update profile stats [automated]"
+        git commit -m "🔄 Update language rankings - $(date +'%Y-%m-%d')"
         git push
