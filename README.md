@@ -123,8 +123,8 @@
 
 ## 💭 Quote of the Moment
 
-> "Programming is the art of telling another human being what one wants the computer to do." - Donald Knuth
+> "In programming, the hard part isn't solving problems, but deciding what problems to solve." - Paul Graham
 
 ---
 
-*🤖 This profile was automatically updated on 2025-09-09 at 21:07:26 UTC*
+*🤖 This profile was automatically updated on 2025-09-09 at 21:08:11 UTC*
