@@ -1,55 +1,53 @@
 ## 🚀 Tech Stack
 
-### 🌟 Primary Technologies 🌟
-🦀 **Rust**
-   🌐 Web Frameworks: Leptos, Dioxus, Sycamore
-   ⚡ Backend: Actix, Tokio, Axum
-   🖥️ UI Development: GPUI
+### ⭐ Primary Technologies
 
-☕ **Java**
-   🍃 Spring Framework - Full-stack development
-   📨 Apache Kafka - Message streaming
-   🔧 Microservices - Distributed architecture
+**🦀 Rust**
 
-🎯 **Dart**
-   📱 Flutter - Native mobile apps
-   🎨 Material Design - Beautiful UIs
+- 🌐 **Web Frameworks:** Leptos, Dioxus, Sycamore
+- ⚡ **Backend:** Actix, Tokio, Axum
+- 🖥️ **UI Development:** GPUI
+
+**☕ Java**
+
+- 🍃 **Spring Framework** - Full-stack development
+- 📨 **Apache Kafka** - Message streaming
+- 🔧 **Microservices** - Distributed architecture
+
+**🎯 Dart**
+
+- 📱 **Flutter** - Cross-platform mobile development
+- 🎨 **Material Design** - Modern UI components
 
 
 ### 🛠️ Additional Technologies
-**🌐 FrontEnd Development**
-🎨 **CSS**
-   🎨 SCSS/CSS - Modern styling
 
-⚛️ **TypeScript**
-   ⚛️ React + TypeScript/JavaScript
+#### 🌐 Frontend Development
 
-💚 **Vue**
-   💚 Vue.js - Progressive framework
+**🎨 CSS**
 
-🎨 **SCSS**
-   🎨 SCSS/CSS - Modern styling
+- 🎨 **SCSS/CSS** - Modern styling and design
 
+**⚛️ TypeScript**
+
+- ⚛️ **React + TypeScript** - Modern web development
+
+**💚 Vue**
+
+- 💚 **Vue.js** - Progressive JavaScript framework
+
+**🎨 SCSS**
+
+- 🎨 **SCSS/CSS** - Modern styling and design
 
 
 ### 📊 Data & Analytics
-🐍 **Jupyter Notebook**
-   🐍 Python - Data science & ML
-   📈 Machine Learning - Predictive models
 
+**🐍 Jupyter Notebook**
 
-## 📊 User Statistics
+- 🐍 **Python** - Data science & machine learning
+- 📈 **Machine Learning** - Predictive analytics
 
-| Metric | Count |
-|--------|-------|
-| 📝 Total Commits | 440 |
-| 🤝 Total Contributions | 460 |
-| 🔄 Pull Requests Created | 44 |
-| 🐛 Issues Created | 20 |
-| ⭐ Stars Gained | 32 |
-| 📁 Total Repositories | 20 |
-| 👤 Owned Repositories | 16 |
-| 🤝 Contributed Repositories | 4 |
 
 
 ## 🔥 Programming Language Rankings
@@ -79,3 +77,17 @@
 6. SCSS - 2.1%
 
 █░░░░░░░░░░░░░░░░░░░ 4,000 bytes / 500 lines of code
+
+
+## 📊 User Statistics
+
+| Metric | Count |
+|--------|-------|
+| 📝 Total Commits | 440 |
+| 🤝 Total Contributions | 460 |
+| 🔄 Pull Requests Created | 44 |
+| 🐛 Issues Created | 20 |
+| ⭐ Stars Gained | 32 |
+| 📁 Total Repositories | 20 |
+| 👤 Owned Repositories | 16 |
+| 🤝 Contributed Repositories | 4 |
