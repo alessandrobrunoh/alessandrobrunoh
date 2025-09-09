@@ -38,10 +38,6 @@ jobs:
         run: |
           curl -o config.json https://raw.githubusercontent.com/alessandrobrunoh/alessandrobrunoh/main/config.json
 
-      - name: Run language analysis
-        run: |
-          python repo_language_analyzer.py
-
       - name: Update README with language rankings
         run: |
           export NEW_RANKING=$(cat language_ranking.md)
