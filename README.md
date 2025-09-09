@@ -66,45 +66,47 @@
 
 *Based on analysis of 24 repositories (24 owned + 0 contributed)*
 
-🥇 Java - 29.9%
+*Rankings now consider code quality, complexity, and maintainability - not just quantity! 🚀*
 
-█████░░░░░░░░░░░░░░░ 451,448 bytes / 5,642 lines of code
+🥇 Java - 54.6% proficiency (Developing)
 
-🥈 TypeScript - 26.3%
+██████████░░░░░░░░░░ Quality: 5.300000000000001/10 | Usage: 29.2% | 5,642 lines
 
-█████░░░░░░░░░░░░░░░ 395,938 bytes / 4,948 lines of code
+🥈 TypeScript - 53.7% proficiency (Developing)
 
-🥉 Rust - 15.0%
+██████████░░░░░░░░░░ Quality: 5.466666666666666/10 | Usage: 25.7% | 4,948 lines
 
-███░░░░░░░░░░░░░░░░░ 226,231 bytes / 2,823 lines of code
+🥉 Rust - 47.2% proficiency (Developing)
 
-4. C - 8.5%
+█████████░░░░░░░░░░░ Quality: 5.4818181818181815/10 | Usage: 14.7% | 2,823 lines
 
-█░░░░░░░░░░░░░░░░░░░ 127,915 bytes / 1,598 lines of code
+4. C - 44.2% proficiency (Developing)
 
-5. SCSS - 6.4%
+████████░░░░░░░░░░░░ Quality: 5.6/10 | Usage: 8.3% | 1,598 lines
 
-█░░░░░░░░░░░░░░░░░░░ 96,419 bytes / 1,202 lines of code
+5. PLpgSQL - 41.5% proficiency (Developing)
 
-6. Vue - 5.7%
+████████░░░░░░░░░░░░ Quality: 5.866666666666667/10 | Usage: 0.7% | 127 lines
 
-█░░░░░░░░░░░░░░░░░░░ 85,673 bytes / 1,070 lines of code
+6. Python - 41.2% proficiency (Developing)
 
-7. Python - 2.9%
+████████░░░░░░░░░░░░ Quality: 5.449999999999999/10 | Usage: 5.1% | 987 lines
 
-█░░░░░░░░░░░░░░░░░░░ 43,602 bytes / 544 lines of code
+7. Vue - 41.1% proficiency (Developing)
 
-8. JavaScript - 2.9%
+████████░░░░░░░░░░░░ Quality: 5.4/10 | Usage: 5.6% | 1,070 lines
 
-█░░░░░░░░░░░░░░░░░░░ 43,238 bytes / 539 lines of code
+8. RenderScript - 40.6% proficiency (Developing)
 
-9. C++ - 0.7%
+████████░░░░░░░░░░░░ Quality: 5.8/10 | Usage: 0.0% | 2 lines
 
-█░░░░░░░░░░░░░░░░░░░ 10,951 bytes / 136 lines of code
+9. SCSS - 40.2% proficiency (Developing)
 
-10. PLpgSQL - 0.7%
+████████░░░░░░░░░░░░ Quality: 5.214285714285714/10 | Usage: 6.2% | 1,202 lines
 
-█░░░░░░░░░░░░░░░░░░░ 10,308 bytes / 127 lines of code
+10. C++ - 39.6% proficiency (Beginner)
+
+███████░░░░░░░░░░░░░ Quality: 5.6/10 | Usage: 0.7% | 136 lines
 
 ## 📊 User Statistics
 
@@ -123,10 +125,10 @@
 
 ## 💭 Quote of the Moment
 
-> "Programs must be written for people to read, and only incidentally for machines to execute." - Harold Abelson
+> "It's not a bug – it's an undocumented feature." - Anonymous
 
 ---
 
-*🤖 This profile was automatically updated on 2025-09-09 at 23:10:00 UTC*
+*🤖 This profile was automatically updated on 2025-09-09 at 23:31:18 UTC*
 
 *⭐ If you are interest to use the same script, watch the main repo [update-profile-stats-script](https://github.com/alessandrobrunoh/update-profile-stats-script). Don't forget to leave a little star.*
