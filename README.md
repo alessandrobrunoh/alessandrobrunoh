@@ -125,10 +125,10 @@
 
 ## 💭 Quote of the Moment
 
-> "It's not a bug – it's an undocumented feature." - Anonymous
+> "Programming is the art of telling another human being what one wants the computer to do." - Donald Knuth
 
 ---
 
-*🤖 This profile was automatically updated on 2025-09-09 at 23:31:18 UTC*
+*🤖 This profile was automatically updated on 2025-09-10 at 02:55:21 UTC*
 
 *⭐ If you are interest to use the same script, watch the main repo [update-profile-stats-script](https://github.com/alessandrobrunoh/update-profile-stats-script). Don't forget to leave a little star.*
