@@ -76,7 +76,7 @@ framework_generated_files = [
 
 [gemini]
 # Model to use for code analysis
-model = "emini-2.0-flash-lite"
+model = "gemini-2.5-flash"
 
 # Prompt for code quality analysis
 quality_prompt = """
