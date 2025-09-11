@@ -23,37 +23,42 @@
 
 | Rank | Language | Usage | Proficiency |
 |---|---|---|---|
-| 🥇 | **TypeScript** | `██░░░░░░░░` 26.2% | *🚀 Advanced* |
-| 🥈 | **Rust** | `█░░░░░░░░░` 14.6% | *⭐ Expert* |
-| 🥉 | **Java** | `██░░░░░░░░` 29.9% | *🎯 Proficient* |
-| 4️⃣ | **JavaScript** | `░░░░░░░░░░` 2.9% | *🚀 Advanced* |
-| 5️⃣ | **Python** | `░░░░░░░░░░` 3.8% | *🚀 Advanced* |
+| 🥇 | **Rust** | `█░░░░░░░░░` 14.7% | *🏆 Master* |
+| 🥈 | **TypeScript** | `██░░░░░░░░` 26.3% | *🚀 Advanced* |
+| 🥉 | **Java** | `██░░░░░░░░` 30.0% | *🎯 Proficient* |
+| 4️⃣ | **JavaScript** | `░░░░░░░░░░` 2.9% | *⭐ Expert* |
+| 5️⃣ | **Python** | `░░░░░░░░░░` 3.4% | *🚀 Advanced* |
 
 
 </td>
 </tr>
 </table>
 
+<details>
+<summary>How is proficiency calculated?</summary>
+Proficiency is a weighted score based on commit frequency, volume of code, and the number of repositories a language is used in. It does not use AI analysis.
+</details>
+
 
 ---
 
-## 🚀 Project Showcase
+## 💻 Tech Stack
 
-### [update-profile-stats-script](https://github.com/alessandrobrunoh/update-profile-stats-script)
-*A project by this user.*
+**🎨 Frontend**
 
-<p>![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-6E7781?style=for-the-badge&logo=postgresql&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-6E7781?style=for-the-badge&logo=swift&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-6E7781?style=for-the-badge&logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-6E7781?style=for-the-badge&logo=bootstrap&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-6E7781?style=for-the-badge&logo=html5&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-6E7781?style=for-the-badge&logo=vite&logoColor=white) ![Less](https://img.shields.io/badge/Less-6E7781?style=for-the-badge&logo=less&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-6E7781?style=for-the-badge&logo=apachekafka&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-6E7781?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![JUnit](https://img.shields.io/badge/JUnit-6E7781?style=for-the-badge&logo=junit&logoColor=white) ![Jest](https://img.shields.io/badge/Jest-6E7781?style=for-the-badge&logo=jest&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-6E7781?style=for-the-badge&logo=rust&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue%2Ejs-4FC08D?style=for-the-badge&logo=vuejs&logoColor=white) </p>
+<p>![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-6E7781?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-6E7781?style=for-the-badge&logo=html5&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-6E7781?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue%2Ejs-4FC08D?style=for-the-badge&logo=vuejs&logoColor=white) </p>
+**⚙️ Backend**
 
-### [zed-grammar-jdl](https://github.com/alessandrobrunoh/zed-grammar-jdl)
-*A project by this user.*
+<p>![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-6E7781?style=for-the-badge&logo=rust&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) </p>
+**☁️ DevOps & Cloud**
 
-<p>![Tree-sitter Query](https://img.shields.io/badge/Tree-sitter%20Query-6E7781?style=for-the-badge&logo=code&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-6E7781?style=for-the-badge&logo=postgresql&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-6E7781?style=for-the-badge&logo=swift&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-6E7781?style=for-the-badge&logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-6E7781?style=for-the-badge&logo=bootstrap&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-6E7781?style=for-the-badge&logo=html5&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-6E7781?style=for-the-badge&logo=vite&logoColor=white) ![Less](https://img.shields.io/badge/Less-6E7781?style=for-the-badge&logo=less&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-6E7781?style=for-the-badge&logo=apachekafka&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-6E7781?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![JUnit](https://img.shields.io/badge/JUnit-6E7781?style=for-the-badge&logo=junit&logoColor=white) ![Jest](https://img.shields.io/badge/Jest-6E7781?style=for-the-badge&logo=jest&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-6E7781?style=for-the-badge&logo=rust&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue%2Ejs-4FC08D?style=for-the-badge&logo=vuejs&logoColor=white) </p>
+<p>![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) </p>
+**💾 Databases**
 
-### [tree-sitter-jdl](https://github.com/alessandrobrunoh/tree-sitter-jdl)
-*A project by this user.*
+<p>![PostgreSQL](https://img.shields.io/badge/PostgreSQL-6E7781?style=for-the-badge&logo=postgresql&logoColor=white) </p>
+**🧪 Testing**
 
-<p>![C](https://img.shields.io/badge/C-6E7781?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-6E7781?style=for-the-badge&logo=code&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white) ![Makefile](https://img.shields.io/badge/Makefile-6E7781?style=for-the-badge&logo=code&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-6E7781?style=for-the-badge&logo=code&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-6E7781?style=for-the-badge&logo=rust&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-6E7781?style=for-the-badge&logo=swift&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-6E7781?style=for-the-badge&logo=postgresql&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-6E7781?style=for-the-badge&logo=swift&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-6E7781?style=for-the-badge&logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-6E7781?style=for-the-badge&logo=bootstrap&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-6E7781?style=for-the-badge&logo=html5&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-6E7781?style=for-the-badge&logo=vite&logoColor=white) ![Less](https://img.shields.io/badge/Less-6E7781?style=for-the-badge&logo=less&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-6E7781?style=for-the-badge&logo=apachekafka&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-6E7781?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![JUnit](https://img.shields.io/badge/JUnit-6E7781?style=for-the-badge&logo=junit&logoColor=white) ![Jest](https://img.shields.io/badge/Jest-6E7781?style=for-the-badge&logo=jest&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-6E7781?style=for-the-badge&logo=rust&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue%2Ejs-4FC08D?style=for-the-badge&logo=vuejs&logoColor=white) </p>
-
+<p>![Jest](https://img.shields.io/badge/Jest-6E7781?style=for-the-badge&logo=jest&logoColor=white) ![JUnit](https://img.shields.io/badge/JUnit-6E7781?style=for-the-badge&logo=junit&logoColor=white) </p>
 
 
 ---
@@ -67,5 +72,5 @@
 ---
 
 <div align="center">
-<p>Last updated: 2025-09-11 01:22:41 UTC</p>
+<p>Last updated: 2025-09-11 01:33:21 UTC</p>
 </div>
