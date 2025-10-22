@@ -1,6 +1,6 @@
 # Hi, Welcome to alessandrobrunoh's Profile! 👋
 
-Full Stack Developer | Open Source Enthusiast | Tech Blogger
+Full Stack Developer | Open Source Enthusiast | Junior Rust Developer 
 Building the future, one commit at a time.
 
 
