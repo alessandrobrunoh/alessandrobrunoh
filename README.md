@@ -19,7 +19,7 @@ I believe in giving back to the community. Here are some of my recent contributi
 
 #### 🦀 Rust - Competent
 - **Backend:** Actix, Axum, Tokio
-- **Frontend:** Leptos, Sycamore, Dioxus
+- **Frontend:** Leptos, Sycamore, Dioxus, Gpui
 
 #### 💛 JavaScript & TypeScript - Competent
 - **Frontend:** React, Angular, Svelte, Mastra
@@ -27,9 +27,9 @@ I believe in giving back to the community. Here are some of my recent contributi
 - **Styling:** Tailwind CSS
 
 #### ☕ Java - Competent
-- **Spring Ecosystem:** Spring Boot
-- **Enterprise:** JHipster • Hibernate
-- **Build Tools:** Maven • Gradle
+- **Spring Ecosystem:** SpringBoot
+- **Enterprise:** JHipster, Hibernate
+- **Build Tools:** Maven, Gradle
 
 #### 🐍 Python - Familiar
 - **Jupyter Notebook:** Matplotlib, Seaborn
