@@ -99,7 +99,7 @@ Here is a list of projects I'm planning to build to deepen my understanding of R
 </details>
 
 <details>
-<summary><strong>5. [ ] GPUI Application</strong></summary>
+<summary><strong>5. ⌛ GPUI Inspector</strong></summary>
 
 *   **Description:** Build a performant, cross-platform desktop application using the GPUI library. A great example would be a real-time Markdown editor with a live preview pane.
 *   **Key Concepts:** Reactive UI, state management, high-performance rendering, layout management.
