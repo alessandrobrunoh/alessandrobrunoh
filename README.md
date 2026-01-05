@@ -20,9 +20,11 @@ I believe in giving back to the community. Here are some of my recent contributi
 #### 🦀 Rust - Competent
 - **Backend:** Actix, Axum, Tokio
 - **Frontend:** Leptos, Sycamore, Dioxus, Gpui
+- **Database:** Sqlx, SeaOrm
+- **GameEngine:** Bevy
 
 #### 💛 JavaScript & TypeScript - Competent
-- **Frontend:** React, Angular, Svelte, Mastra
+- **Frontend:** React, Angular, Svelte, Mastra, Expo, React Native
 - **Backend:** Express.js
 - **Styling:** Tailwind CSS
 
@@ -58,8 +60,13 @@ I believe in giving back to the community. Here are some of my recent contributi
    
 ## 🌟 Featured Forks
    
-1. **[Vibe Kanban](https://github.com/alessandrobrunoh/vibe-kanban-jules)** 
+1. **[Zed](https://github.com/alessandrobrunoh/zed)** 
    - 💻 Language: Rust
+
+2. **[Vibe Kanban](https://github.com/alessandrobrunoh/vibe-kanban-jules)** 
+   - 💻 Language: Rust
+  
+3. **[Juice Shop](https://github.com/alessandrobrunoh/Relazione-Sicurezza-Privacy)** 
 
 ---
 
