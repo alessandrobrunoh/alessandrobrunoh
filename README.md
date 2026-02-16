@@ -7,7 +7,7 @@ As a Junior Full Stack Developer, I thrive on turning ideas into reality. My jou
 
 I believe in giving back to the community. Here are some of my recent contributions, including successful merges and valuable learning experiences.
 
-- 🟡 [Add Port forward UI in GPUI](https://github.com/zed-industries/zed/pull/41632) - `Open` in [zed-industries/zed](https://github.com/zed-industries/zed)
+- 🟡 [Add Port forward UI in GPUI](https://github.com/zed-industries/zed/pull/41632) - `Open` in [zed-industries/zed](https://github.com/zed-industries/zed) - 
 - ✅ [Add jdl language support](https://github.com/zed-industries/extensions/pull/3339) - `Merged` in [zed-industries/zed](https://github.com/zed-industries/extensions)
 
 ---
@@ -20,13 +20,14 @@ I believe in giving back to the community. Here are some of my recent contributi
 #### 🦀 Rust - Competent
 - **Backend:** Actix, Axum, Tokio
 - **Frontend:** Leptos, Sycamore, Dioxus, Gpui
-- **Database:** Sqlx, SeaOrm
+- **Database:** Sqlx, Seaorm, Diesel
 - **GameEngine:** Bevy
+- **CLI:** clap, ratatui
 
 #### 💛 JavaScript & TypeScript - Competent
 - **Frontend:** React, Angular, Svelte, Mastra, Expo, React Native
-- **Backend:** Express.js
-- **Styling:** Tailwind CSS
+- **Backend:** Express.js, NestJs
+- **Styling:** Tailwind CSS, Storybook
 
 #### ☕ Java - Competent
 - **Spring Ecosystem:** SpringBoot
@@ -36,6 +37,12 @@ I believe in giving back to the community. Here are some of my recent contributi
 #### 🐍 Python - Familiar
 - **Jupyter Notebook:** Matplotlib, Seaborn
 
+####  💎 Ruby - Exploring
+
+####  🧉 Kotlin - Exploring
+
+####  🦫 Go - Exploring
+
 #### C - Familiar
 
 #### 🤖 Flutter - Familiar
@@ -44,7 +51,7 @@ I believe in giving back to the community. Here are some of my recent contributi
 
 ## 🌟 Featured Repos
 
-1. **[Mnemosyne](https://github.com/alessandrobrunoh/Mnemosyne)**
+1. **[Mnemosyne](https://github.com/alessandrobrunoh/Mnemosyne)** Sync Local History across all IDE's 
    - 💻 Language: Rust
 
 2. **[KetchApp](https://github.com/orgs/ketch-for-study)**
@@ -125,5 +132,6 @@ Here is a list of projects I'm planning to build to deepen my understanding more
 *   **Proficient:** I have successfully completed several medium-complexity projects.
 *   **Competent:** I have used the technology in projects for small/medium specific tasks.
 *   **Familiar:** I have foundational knowledge and have done personal experiments.
+*   **Interested:** I’ve just taken a quick look at this technology.
 
 </details>
