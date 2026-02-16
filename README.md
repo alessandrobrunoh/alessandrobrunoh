@@ -44,11 +44,11 @@ I believe in giving back to the community. Here are some of my recent contributi
 
 ## 🌟 Featured Repos
 
-1. **[KetchApp](https://github.com/orgs/ketch-for-study)**
-   - 💻 Language: Rust, Java, Flutter
+1. **[Mnemosyne](https://github.com/alessandrobrunoh/Mnemosyne)**
+   - 💻 Language: Rust
 
-2. **[Tokio TCP Chat](https://github.com/alessandrobrunoh/Tokio-TCP-Chat-Test)** 
-   - 💻 Language: Rust 
+2. **[KetchApp](https://github.com/orgs/ketch-for-study)**
+   - 💻 Language: Rust, Java, Flutter
 
 3. **[VAPT Research](https://github.com/alessandrobrunoh/Relazione-Sicurezza-Privacy)**
 
