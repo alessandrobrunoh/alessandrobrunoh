@@ -69,11 +69,8 @@ I believe in giving back to the community. Here are some of my recent contributi
    
 1. **[Zed](https://github.com/alessandrobrunoh/zed)** 
    - 💻 Language: Rust
-
-2. **[Vibe Kanban](https://github.com/alessandrobrunoh/vibe-kanban-jules)** 
-   - 💻 Language: Rust
   
-3. **[Juice Shop](https://github.com/alessandrobrunoh/Relazione-Sicurezza-Privacy)** 
+2. **[Juice Shop](https://github.com/alessandrobrunoh/Relazione-Sicurezza-Privacy)** 
 
 ---
 
