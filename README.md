@@ -19,10 +19,12 @@ I believe in giving back to the community. Here are some of my recent contributi
 
 #### 🦀 Rust - Competent
 - **Backend:** Actix, Axum, Tokio
-- **Frontend:** Leptos, Sycamore, Dioxus, Gpui
+- **Frontend:** Leptos, Sycamore, Dioxus, Freya, Gpui
 - **Database:** Sqlx, Seaorm, Diesel
 - **GameEngine:** Bevy
 - **CLI:** clap, ratatui
+- **Ai:** Rig
+- **WebAssembly:** wasm-bindgen, web-sys
 
 #### 💛 JavaScript & TypeScript - Competent
 - **Frontend:** React, Angular, Svelte, Mastra, Expo, React Native
