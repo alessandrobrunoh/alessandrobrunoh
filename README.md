@@ -36,41 +36,31 @@ I believe in giving back to the community. Here are some of my recent contributi
 - **Enterprise:** JHipster, Hibernate
 - **Build Tools:** Maven, Gradle
 
-#### 🐍 Python - Familiar
-- **Jupyter Notebook:** Matplotlib, Seaborn
-
-####  💎 Ruby - Exploring
-
-####  🧉 Kotlin - Exploring
-
-####  🦫 Go - Exploring
-
 #### C - Familiar
-
+#### C++ - Familiar
+#### 💎 Ruby - Exploring
+#### 🧉 Kotlin - Exploring
+#### 🦫 Go - Exploring
+#### 🐍 Python - Familiar
 #### 🤖 Flutter - Familiar
 
 ---
 
 ## 🌟 Featured Repos
 
-1. **[Mnemosyne](https://github.com/alessandrobrunoh/Mnemosyne)** Sync Local History across all IDE's 
-   - 💻 Language: Rust
+1. **[Mnemosyne](https://github.com/alessandrobrunoh/Mnemosyne)** Sync Local History across all IDE's (Rust)
 
-2. **[KetchApp](https://github.com/orgs/ketch-for-study)**
-   - 💻 Language: Rust, Java, Flutter
+2. **[KetchApp](https://github.com/orgs/ketch-for-study)** (Rust, Java, Flutter)
 
-3. **[VAPT Research](https://github.com/alessandrobrunoh/Relazione-Sicurezza-Privacy)**
+3. **[VAPT Research](https://github.com/alessandrobrunoh/Relazione-Sicurezza-Privacy)** 
 
-4. **[Briscola Online](https://github.com/alessandrobrunoh/Progetto-Ingegneria-Web)** 
-   - 💻 Language: JavaScript
+4. **[Briscola Online](https://github.com/alessandrobrunoh/Progetto-Ingegneria-Web)** (Vue, TypeScript)
 
-5. **[ML Research](https://github.com/alessandrobrunoh/Progetto-Machine-Learning)** 
-   - 💻 Language: Python
+5. **[ML Research](https://github.com/alessandrobrunoh/Progetto-Machine-Learning)** (Python)
    
 ## 🌟 Featured Forks
    
-1. **[Zed](https://github.com/alessandrobrunoh/zed)** 
-   - 💻 Language: Rust
+1. **[Zed](https://github.com/alessandrobrunoh/zed)** (Rust)
   
 2. **[Juice Shop](https://github.com/alessandrobrunoh/Relazione-Sicurezza-Privacy)** 
 
@@ -131,6 +121,6 @@ Here is a list of projects I'm planning to build to deepen my understanding more
 *   **Proficient:** I have successfully completed several medium-complexity projects.
 *   **Competent:** I have used the technology in projects for small/medium specific tasks.
 *   **Familiar:** I have foundational knowledge and have done personal experiments.
-*   **Interested:** I’ve just taken a quick look at this technology.
+*   **Exploring:** I’ve just taken a quick look at this technology.
 
 </details>
