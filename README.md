@@ -24,7 +24,7 @@ I believe in giving back to the community. Here are some of my recent contributi
 - **GameEngine:** Bevy
 - **CLI:** clap, ratatui
 - **Ai:** Rig
-- **WebAssembly:** wasm-bindgen, web-sys
+- **WebAssembly:** wasm-bindgen, web-sys, js-sys
 
 #### 💛 JavaScript & TypeScript - Competent
 - **Frontend:** React, Angular, Svelte, Mastra, Expo, React Native
