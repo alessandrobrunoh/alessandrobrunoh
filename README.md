@@ -50,7 +50,7 @@ I believe in giving back to the community. Here are some of my recent contributi
 
 1. **[Mnemosyne](https://github.com/alessandrobrunoh/Mnemosyne)** Sync Local History across all IDE's (Rust)
 
-2. **[KetchApp](https://github.com/orgs/ketch-for-study)** (Rust, Java, Flutter)
+2. **[KetchApp](https://github.com/orgs/ketchapp-for-study)** (Rust, Java, Flutter)
 
 3. **[VAPT Research](https://github.com/alessandrobrunoh/Relazione-Sicurezza-Privacy)** 
 
