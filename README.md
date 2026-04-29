@@ -7,7 +7,7 @@ As a Junior Full Stack Developer, I thrive on turning ideas into reality. My jou
 
 I believe in giving back to the community. Here are some of my recent contributions, including successful merges and valuable learning experiences.
 
-- 🟡 [Add Port forward UI in GPUI](https://github.com/zed-industries/zed/pull/41632) - `Open` in [zed-industries/zed](https://github.com/zed-industries/zed) - 
+- 🟡 [New UI & Dynamic port forwarding](https://github.com/zed-industries/zed/pull/55248) - `Open` in [zed-industries/zed](https://github.com/zed-industries/zed) - 
 - ✅ [Add jdl language support](https://github.com/zed-industries/extensions/pull/3339) - `Merged` in [zed-industries/zed](https://github.com/zed-industries/extensions)
 
 ---
