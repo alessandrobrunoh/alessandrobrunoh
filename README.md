@@ -13,22 +13,28 @@ As a Junior Full Stack Developer, I thrive on turning ideas into reality. My jou
 ---
 ## 💼 Work Experience
 
-**Software Developer Intern** — [L'una S.r.l.](https://www.lunapartner.it) — 1 year
+<details>
+<summary><strong>Rust Backend Engineer (Ongoing) — <a href="https://www.lunapartner.it">L'una S.r.l.</a> — since June 9, 2026</strong></summary>
 
-Worked across three projects for the company's clients:
+**Designing and building an event-driven microservices architecture in Rust from the ground up** — the flagship engineering effort of my time at L'una S.r.l. This isn't a CRUD backend: it's a distributed, async-first system built for real-time data flow, using Valkey as the event backbone (streams/queues) and AWS S3 for durable persistence, with Tokio powering fully asynchronous, scalable services under the hood. I'm also leading the early architectural groundwork for a Kubernetes-based deployment, and building out full observability into the stack with Grafana, Alloy, Loki, and Tempo — so every event flowing through the system is traceable end to end. This project is where I've pushed hardest into systems-level Rust: performance, correctness, and observability all designed in from day one, not bolted on after.
+
+</details>
+
+<details>
+<summary><strong>Software Developer Intern — <a href="https://www.lunapartner.it">L'una S.r.l.</a> — September 8, 2025 – June 8, 2026</strong></summary>
 
 1. **Fleet Tracking & Route Management System** — Backend in Spring Boot, frontend in Angular, mobile app in Expo (React Native), for a client managing street-sweeping vehicles. Routes were designed and assigned to vehicles from the Angular management dashboard; the mobile app, linked to a specific vehicle, showed the assigned route (not turn-by-turn navigation, but the streets to be swept). The dashboard displayed the vehicle's progress along the route in real time via WebSocket, as well as historical route data.
 
 2. **Legacy System Maintenance** — Bug fixing (both frontend and backend) on a legacy management system built in Java and Angular, based on issues reported by the client.
 
-3. **Event-Driven Microservices Architecture in Rust** — Designed and developed an event-driven microservices architecture using Rust, with Valkey for messaging and AWS S3 for persistence. Started early design work for a Kubernetes deployment. Built scalable, async code with Tokio, with observability provided by Grafana, Alloy, Loki, and Tempo.
+</details>
 
 ---
 ## 🤝 Open Source Contributions
 
 I believe in giving back to the community. Here are some of my recent contributions, including successful merges and valuable learning experiences.
 
-- 🟡 [New UI & Dynamic port forwarding](https://github.com/zed-industries/zed/pull/55248) - `Open` in [zed-industries/zed](https://github.com/zed-industries/zed) - 
+- 🟡 [New UI & Dynamic port forwarding](https://github.com/zed-industries/zed/pull/55248) - `Open` in [zed-industries/zed](https://github.com/zed-industries/zed) (currently on a short hold due to vacation)
 - ✅ [Add jdl language support](https://github.com/zed-industries/extensions/pull/3339) - `Merged` in [zed-industries/zed](https://github.com/zed-industries/extensions)
 - 📦 [ducklake-orm](https://crates.io/crates/ducklake-orm) - `Published` on crates.io - a lightweight Rust ORM for DuckDB with derive-macro-based type-safe queries
 
@@ -69,17 +75,15 @@ I believe in giving back to the community. Here are some of my recent contributi
 
 ## 🌟 Featured Repos
 
-1. **[Mnemosyne](https://github.com/alessandrobrunoh/Mnemosyne)** Sync Local History across all IDE's (Rust)
+1. **[ducklake-orm](https://github.com/alessandrobrunoh/ducklake-orm)** Lightweight Rust ORM for DuckDB — derive macros, type-safe CRUD, connection pooling, migrations (Rust)
 
-2. **[ducklake-orm](https://github.com/alessandrobrunoh/ducklake-orm)** Lightweight Rust ORM for DuckDB — derive macros, type-safe CRUD, connection pooling, migrations (Rust)
+2. **[Mnemosyne](https://github.com/alessandrobrunoh/Mnemosyne)** Sync Local History across all IDE's (Rust)
 
 3. **[KetchApp](https://github.com/orgs/ketchapp-for-study)** (Rust, Java, Flutter)
 
 4. **[VAPT Research](https://github.com/alessandrobrunoh/Relazione-Sicurezza-Privacy)** 
 
 5. **[Briscola Online](https://github.com/alessandrobrunoh/Progetto-Ingegneria-Web)** (Vue, TypeScript)
-
-6. **[ML Research](https://github.com/alessandrobrunoh/Progetto-Machine-Learning)** (Python)
    
 ## 🌟 Featured Forks
    
@@ -137,6 +141,8 @@ A set of projects planned to deepen my understanding of Rust across trading/bloc
 
 <details>
 <summary><strong>📖 Competency Level Legend</strong></summary>
+
+*Note: these competency levels are subjective — they reflect my own self-assessment and how confident I personally feel with each technology, not a formal or standardized scale.*
 
 *   **Expert:** I have completed numerous complex projects independently.
 *   **Proficient:** I have successfully completed several medium-complexity projects.
