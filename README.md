@@ -45,7 +45,7 @@ I believe in giving back to the community. Here are some of my recent contributi
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust - Competent
+#### 🦀 Rust - Proficient
 - **Backend:** Actix, Axum, Tokio
 - **Frontend:** Leptos, Sycamore, Dioxus, Freya, Gpui, Topcat
 - **Database:** Sqlx, Seaorm, Diesel, ducklake-orm
