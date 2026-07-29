@@ -88,30 +88,6 @@ Here is a list of projects I'm planning to build to deepen my understanding more
 
 </details>
 
-<details>
-<summary><strong>5. [ ] GPUI Inspector</strong></summary>
-
-*   **Description:** Build a performant, cross-platform desktop application using the GPUI library. A great example would be a real-time Markdown editor with a live preview pane.
-*   **Key Concepts:** Reactive UI, state management, high-performance rendering, layout management.
-
-</details>
-
-<details>
-<summary><strong>6. [ ] Mini Spring Boot in Rust</strong></summary>
-
-*   **Description:** Create a minimal web framework inspired by Spring Boot. It should feature a declarative routing system (using macros or attributes), basic middleware support, and perhaps a simple dependency injection mechanism.
-*   **Key Concepts:** Procedural macros, traits, HTTP server implementation, routing logic, design patterns.
-
-</details>
-
-<details>
-<summary><strong>7. [ ] Mini AI Agent</strong></summary>
-
-*   **Description:** Develop a command-line AI agent that can perform tasks. It could use a local LLM (via Ollama) or an API (like OpenAI) to summarize files, generate boilerplate code, or answer questions about a codebase.
-*   **Key Concepts:** HTTP client, JSON parsing, process management, prompt engineering, CLI tool development.
-
-</details>
-
 ---
 
 <details>
