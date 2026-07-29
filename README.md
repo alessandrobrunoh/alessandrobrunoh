@@ -3,6 +3,27 @@
 As a Junior Full Stack Developer, I thrive on turning ideas into reality. My journey is fueled by a passion for open source and a deep appreciation for the Rust programming language. I'm always eager to learn, contribute, and tackle new challenges.
 
 ---
+## 🎓 Education
+
+**Bachelor's Degree in Computer Systems Technologies (Tecnologie dei Sistemi Informatici)** — University of Bologna
+*Graduated July 10, 2026*
+
+**Thesis:** *"Design and Development of PETRA, an Event-Driven Platform for Real-Time Asynchronous Telemetry and Analysis"*
+
+---
+## 💼 Work Experience
+
+**Software Developer Intern** — [L'una S.r.l.](https://www.lunapartner.it) — 1 year
+
+Worked across three projects for the company's clients:
+
+1. **Fleet Tracking & Route Management System** — Backend in Spring Boot, frontend in Angular, mobile app in Expo (React Native), for a client managing street-sweeping vehicles. Routes were designed and assigned to vehicles from the Angular management dashboard; the mobile app, linked to a specific vehicle, showed the assigned route (not turn-by-turn navigation, but the streets to be swept). The dashboard displayed the vehicle's progress along the route in real time via WebSocket, as well as historical route data.
+
+2. **Legacy System Maintenance** — Bug fixing (both frontend and backend) on a legacy management system built in Java and Angular, based on issues reported by the client.
+
+3. **Event-Driven Microservices Architecture in Rust** — Designed and developed an event-driven microservices architecture using Rust, with Valkey for messaging and AWS S3 for persistence. Started early design work for a Kubernetes deployment. Built scalable, async code with Tokio, with observability provided by Grafana, Alloy, Loki, and Tempo.
+
+---
 ## 🤝 Open Source Contributions
 
 I believe in giving back to the community. Here are some of my recent contributions, including successful merges and valuable learning experiences.
@@ -20,15 +41,14 @@ I believe in giving back to the community. Here are some of my recent contributi
 
 #### 🦀 Rust - Competent
 - **Backend:** Actix, Axum, Tokio
-- **Frontend:** Leptos, Sycamore, Dioxus, Freya, Gpui
+- **Frontend:** Leptos, Sycamore, Dioxus, Freya, Gpui, Topcat
 - **Database:** Sqlx, Seaorm, Diesel, ducklake-orm
 - **GameEngine:** Bevy
 - **CLI:** clap, ratatui
-- **Ai:** Rig
 - **WebAssembly:** wasm-bindgen, web-sys, js-sys
 
 #### 💛 JavaScript & TypeScript - Competent
-- **Frontend:** React, Angular, Svelte, Mastra, Expo, React Native
+- **Frontend:** React, Angular, Svelte, Expo, React Native
 - **Backend:** Express.js, NestJs
 - **Styling:** Tailwind CSS, Storybook
 
@@ -37,13 +57,13 @@ I believe in giving back to the community. Here are some of my recent contributi
 - **Enterprise:** JHipster, Hibernate
 - **Build Tools:** Maven, Gradle
 
-#### C - Familiar
-#### C++ - Familiar
-#### 💎 Ruby - Exploring
-#### 🧉 Kotlin - Exploring
-#### 🦫 Go - Exploring
-#### 🐍 Python - Familiar
-#### 🤖 Flutter - Familiar
+### 🛠️ Infrastructure & Tools
+
+- **Containers & Versioning:** Docker, Git
+- **Microservices & Event-Driven Systems:** designing and building distributed, event-driven microservices architectures
+- **Messaging:** Valkey Streams/Queues, Redis
+- **Databases:** PostgreSQL, DuckLake
+- **Cloud Storage:** AWS S3
 
 ---
 
@@ -71,44 +91,7 @@ I believe in giving back to the community. Here are some of my recent contributi
 
 ## 🎯 Learning Goals
 
-Here is a list of projects I'm planning to build to deepen my understanding more languages and their ecosystems, from low-level systems to high-level applications. Click on each project to learn more!
-
-<details>
-<summary><strong>1. [ ] Mini Database Engine with B-Tree</strong></summary>
-
-*   **Description:** Build a simple, embedded database engine from scratch. It will support basic `CREATE`, `INSERT`, and `SELECT` operations, using a B-Tree index on disk for efficient data storage and retrieval.
-*   **Key Concepts:** B-Tree data structure, file I/O, serialization, memory management, query parsing.
-*   **Why it's a good project:** It's a challenging but incredibly rewarding project that demonstrates a deep mastery of data structures, performance, and systems programming in Rust.
-
-</details>
-
-<details>
-<summary><strong>2. [ ] Solana Program (Smart Contract)</strong></summary>
-
-*   **Description:** Develop and deploy a simple program on the Solana blockchain. For example, a decentralized voting system or a simple token minting dApp, and build a basic client to interact with it.
-*   **Key Concepts:** Solana SDK, Anchor framework, on-chain program logic, client-side interaction, cryptography.
-*   **Why it's a good project:** This project dives into the world of Web3, showing you can apply Rust's performance and safety to the exciting field of decentralized finance and applications.
-
-</details>
-
----
-
-<details>
-<summary><strong>📖 Competency Level Legend</strong></summary>
-
-*   **Expert:** I have completed numerous complex projects independently.
-*   **Proficient:** I have successfully completed several medium-complexity projects.
-*   **Competent:** I have used the technology in projects for small/medium specific tasks.
-*   **Familiar:** I have foundational knowledge and have done personal experiments.
-*   **Exploring:** I’ve just taken a quick look at this technology.
-
-</details>
-
----
-
-## 🚀 Upcoming CV Projects
-
-A set of projects planned to build deeper expertise in Rust across trading/blockchain, storage engines, distributed systems, and observability tooling.
+A set of projects planned to deepen my understanding of Rust across trading/blockchain, storage engines, distributed systems, and observability tooling — from low-level systems to high-level applications. Click on each project to learn more!
 
 <details>
 <summary><strong>1. [ ] Mini DEX on Solana — On-Chain Order Matching</strong></summary>
@@ -147,5 +130,18 @@ A set of projects planned to build deeper expertise in Rust across trading/block
 *   **Key Concepts:** Leader election, log replication, quorum/majority agreement, term numbers.
 *   **Why it's a good project:** Hands-on understanding of consensus and replication, the same category of problem underlying real distributed databases and clustered Valkey/Redis deployments.
 *   **Repo:** [raft-kv-store](https://github.com/alessandrobrunoh/raft-kv-store)
+
+</details>
+
+---
+
+<details>
+<summary><strong>📖 Competency Level Legend</strong></summary>
+
+*   **Expert:** I have completed numerous complex projects independently.
+*   **Proficient:** I have successfully completed several medium-complexity projects.
+*   **Competent:** I have used the technology in projects for small/medium specific tasks.
+*   **Familiar:** I have foundational knowledge and have done personal experiments.
+*   **Exploring:** I’ve just taken a quick look at this technology.
 
 </details>
