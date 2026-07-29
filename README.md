@@ -116,6 +116,7 @@ A set of projects planned to build deeper expertise in Rust across trading/block
 *   **Description:** A minimal decentralized exchange built as a Solana on-chain program (Anchor). Users deposit two SPL tokens, place buy/sell orders, and the program matches and settles compatible orders automatically via escrow PDAs.
 *   **Key Concepts:** Cross-Program Invocation (CPI), Program Derived Addresses (PDA), SPL Token program, on-chain order matching logic.
 *   **Why it's a good project:** Combines Web3/Solana skills with order-matching logic similar to real trading systems, under the stricter constraints of a blockchain execution environment.
+*   **Repo:** [solana-mini-dex](https://github.com/alessandrobrunoh/solana-mini-dex)
 
 </details>
 
@@ -125,6 +126,7 @@ A set of projects planned to build deeper expertise in Rust across trading/block
 *   **Description:** An embedded database engine built from scratch: data persisted to disk in fixed-size pages, indexed with a B-Tree for efficient lookups, supporting insert/get/delete/range-scan.
 *   **Key Concepts:** B-Tree data structure, page-based file I/O, serialization, write-ahead logging for durability.
 *   **Why it's a good project:** Demonstrates deep understanding of on-disk data structures and storage engine internals, complementing ORM-level work like ducklake-orm.
+*   **Repo:** [mini-db-btree](https://github.com/alessandrobrunoh/mini-db-btree)
 
 </details>
 
@@ -134,6 +136,7 @@ A set of projects planned to build deeper expertise in Rust across trading/block
 *   **Description:** A load-testing and observability CLI for microservices that communicate through Valkey (pub/sub/streams) instead of direct HTTP. Measures end-to-end latency and consumer lag across the whole pipeline, with a live terminal dashboard.
 *   **Key Concepts:** Pub/Sub and Streams, consumer lag/backpressure, async concurrency with Tokio, distributed observability.
 *   **Why it's a good project:** Goes beyond generic HTTP load testing to address real event-driven architecture problems, directly relevant to Valkey/Redis-based infrastructure.
+*   **Repo:** [valkey-loadtest](https://github.com/alessandrobrunoh/valkey-loadtest)
 
 </details>
 
@@ -143,5 +146,6 @@ A set of projects planned to build deeper expertise in Rust across trading/block
 *   **Description:** A key-value store replicated across multiple nodes that stays consistent even if a node crashes, implementing the Raft consensus algorithm for leader election and log replication.
 *   **Key Concepts:** Leader election, log replication, quorum/majority agreement, term numbers.
 *   **Why it's a good project:** Hands-on understanding of consensus and replication, the same category of problem underlying real distributed databases and clustered Valkey/Redis deployments.
+*   **Repo:** [raft-kv-store](https://github.com/alessandrobrunoh/raft-kv-store)
 
 </details>
