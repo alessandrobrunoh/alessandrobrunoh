@@ -14,14 +14,14 @@ As a Junior Full Stack Developer, I thrive on turning ideas into reality. My jou
 ## 💼 Work Experience
 
 <details>
-<summary><strong>Rust Backend Engineer (Ongoing) — <a href="https://www.lunapartner.it">L'una S.r.l.</a> — since June 9, 2026</strong></summary>
+<summary><strong>Rust Backend Engineer (Ongoing) — <a href="https://www.lunapartner.it">Luna S.r.l.</a> — since June 9, 2026</strong></summary>
 
 **Designing and building an event-driven microservices architecture in Rust from the ground up** — the flagship engineering effort of my time at L'una S.r.l. This isn't a CRUD backend: it's a distributed, async-first system built for real-time data flow, using Valkey as the event backbone (streams/queues) and AWS S3 for durable persistence, with Tokio powering fully asynchronous, scalable services under the hood. I'm also leading the early architectural groundwork for a Kubernetes-based deployment, and building out full observability into the stack with Grafana, Alloy, Loki, and Tempo — so every event flowing through the system is traceable end to end. This project is where I've pushed hardest into systems-level Rust: performance, correctness, and observability all designed in from day one, not bolted on after.
 
 </details>
 
 <details>
-<summary><strong>Software Developer Intern — <a href="https://www.lunapartner.it">L'una S.r.l.</a> — September 8, 2025 – June 8, 2026</strong></summary>
+<summary><strong>Software Developer Intern — <a href="https://www.lunapartner.it">Luna S.r.l.</a> — September 8, 2025 – June 8, 2026</strong></summary>
 
 1. **Fleet Tracking & Route Management System** — Backend in Spring Boot, frontend in Angular, mobile app in Expo (React Native), for a client managing street-sweeping vehicles. Routes were designed and assigned to vehicles from the Angular management dashboard; the mobile app, linked to a specific vehicle, showed the assigned route (not turn-by-turn navigation, but the streets to be swept). The dashboard displayed the vehicle's progress along the route in real time via WebSocket, as well as historical route data.
 
