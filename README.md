@@ -1,153 +1,57 @@
-# Hi, Welcome to Alessandro Bruno's Profile! 👋
+<!--
+  Source for the GitHub profile README (github.com/alessandrobrunoh/alessandrobrunoh).
+  Kept next to the site so both tell the same story: when site.en.ts changes, update this too.
+-->
 
-As a Junior Full Stack Developer, I thrive on turning ideas into reality. My journey is fueled by a passion for open source and a deep appreciation for the Rust programming language. I'm always eager to learn, contribute, and tackle new challenges.
+# Alessandro Bruno
 
----
-## 🎓 Education
+Software engineer in Bologna, backend first. At [Luna S.r.l.](https://lunapartner.it) I design and build event-driven systems in Rust for clients. On my own time I build the developer tools I was missing.
 
-**Bachelor's Degree in Computer Systems Technologies (Tecnologie dei Sistemi Informatici)** — University of Bologna
-*Graduated July 10, 2026*
+[Portfolio](https://alessandrobrunoh.it) · [CV](https://alessandrobrunoh.it/alessandro-bruno-cv.pdf) · [Email](mailto:alessandro.brunoh@gmail.com)
 
-**Thesis:** *"Design and Development of PETRA, an Event-Driven Platform for Real-Time Asynchronous Telemetry and Analysis"*
-
----
-## 💼 Work Experience
-
-<details>
-<summary><strong>Rust Backend Engineer (Ongoing) — <a href="https://www.lunapartner.it">Luna S.r.l.</a> — since June 9, 2026</strong></summary>
-
-**Designing and building an event-driven microservices architecture in Rust from the ground up** — the flagship engineering effort of my time at L'una S.r.l. This isn't a CRUD backend: it's a distributed, async-first system built for real-time data flow, using Valkey as the event backbone (streams/queues) and AWS S3 for durable persistence, with Tokio powering fully asynchronous, scalable services under the hood. I'm also leading the early architectural groundwork for a Kubernetes-based deployment, and building out full observability into the stack with Grafana, Alloy, Loki, and Tempo — so every event flowing through the system is traceable end to end. This project is where I've pushed hardest into systems-level Rust: performance, correctness, and observability all designed in from day one, not bolted on after.
-
-</details>
-
-<details>
-<summary><strong>Software Developer Intern — <a href="https://www.lunapartner.it">Luna S.r.l.</a> — September 8, 2025 – June 8, 2026</strong></summary>
-
-1. **Fleet Tracking & Route Management System** — Backend in Spring Boot, frontend in Angular, mobile app in Expo (React Native), for a client managing street-sweeping vehicles. Routes were designed and assigned to vehicles from the Angular management dashboard; the mobile app, linked to a specific vehicle, showed the assigned route (not turn-by-turn navigation, but the streets to be swept). The dashboard displayed the vehicle's progress along the route in real time via WebSocket, as well as historical route data.
-
-2. **Legacy System Maintenance** — Bug fixing (both frontend and backend) on a legacy management system built in Java and Angular, based on issues reported by the client.
-
-</details>
-
----
-## 🤝 Open Source Contributions
-
-I believe in giving back to the community. Here are some of my recent contributions, including successful merges and valuable learning experiences.
-
-- 🟡 [New UI & Dynamic port forwarding](https://github.com/zed-industries/zed/pull/55248) - `Open` in [zed-industries/zed](https://github.com/zed-industries/zed) (currently on a short hold due to vacation)
-- ✅ [Add jdl language support](https://github.com/zed-industries/extensions/pull/3339) - `Merged` in [zed-industries/zed](https://github.com/zed-industries/extensions)
-- 📦 [ducklake-orm](https://crates.io/crates/ducklake-orm) - `Published` on crates.io - a lightweight Rust ORM for DuckDB with derive-macro-based type-safe queries
-
----
-## 💪 My Tech Stack & Confidence Level
-
-*(See the legend below for a description of the competency levels.)*
-
-### ⭐ Primary Technologies
-
-#### 🦀 Rust - Proficient
-- **Backend:** Actix, Axum, Tokio
-- **Frontend:** Leptos, Sycamore, Dioxus, Freya, Gpui, Topcat
-- **Database:** Sqlx, Seaorm, Diesel, ducklake-orm
-- **GameEngine:** Bevy
-- **CLI:** clap, ratatui
-- **WebAssembly:** wasm-bindgen, web-sys, js-sys
-
-#### 💛 JavaScript & TypeScript - Competent
-- **Frontend:** React, Angular, Svelte, Expo, React Native
-- **Backend:** Express.js, NestJs
-- **Styling:** Tailwind CSS, Storybook
-
-#### ☕ Java - Competent
-- **Spring Ecosystem:** SpringBoot
-- **Enterprise:** JHipster, Hibernate
-- **Build Tools:** Maven, Gradle
-
-### 🛠️ Infrastructure & Tools
-
-- **Containers & Versioning:** Docker, Git
-- **Microservices & Event-Driven Systems:** designing and building distributed, event-driven microservices architectures
-- **Messaging:** Valkey Streams/Queues, Redis
-- **Databases:** PostgreSQL, DuckLake
-- **Cloud Storage:** AWS S3
+**Open to** Software Engineer and Forward Deployed Engineer roles: backend first, also full-stack or customer-facing. Italy and the rest of Europe, remote or hybrid. EU citizen.
 
 ---
 
-## 🌟 Featured Repos
+## Work
 
-1. **[ducklake-orm](https://github.com/alessandrobrunoh/ducklake-orm)** Lightweight Rust ORM for DuckDB — derive macros, type-safe CRUD, connection pooling, migrations (Rust)
+**Software Developer, Luna S.r.l.** · Jun 2026 to present
+- Designed the event-driven Rust platform for a client project, and build it with a team of 5–10: Tokio consumers on Valkey Streams, payloads on S3. The client is under NDA.
+- Made the services observable end to end with OpenTelemetry, Grafana, Loki and Tempo, so a single event can be followed across services.
+- Building a new operator console: Spring Boot APIs and a React UI.
+- Case study: [an event-driven platform for a client](https://alessandrobrunoh.it/work/event-platform)
 
-2. **[Mnemosyne](https://github.com/alessandrobrunoh/Mnemosyne)** Sync Local History across all IDE's (Rust)
+**Software Developer Intern, Luna S.r.l.** · Sep 2025 to Jun 2026
+- Fleet platform in Spring Boot, Angular and React Native with live updates over WebSockets. About 200 vehicles run on it today.
+- Moved onto a client's production Rust backend after two months, shipping under senior code review.
 
-3. **[KetchApp](https://github.com/orgs/ketchapp-for-study)** (Rust, Java, Flutter)
+**B.Sc. Computer Systems Technologies, University of Bologna** · Jul 2026
+- Thesis: *PETRA, an event-driven platform for real-time asynchronous telemetry and analysis.*
 
-4. **[VAPT Research](https://github.com/alessandrobrunoh/Relazione-Sicurezza-Privacy)** 
+## Projects
 
-5. **[Briscola Online](https://github.com/alessandrobrunoh/Progetto-Ingegneria-Web)** (Vue, TypeScript)
-   
-## 🌟 Featured Forks
-   
-1. **[Zed](https://github.com/alessandrobrunoh/zed)** (Rust)
-  
-2. **[Juice Shop](https://github.com/alessandrobrunoh/Relazione-Sicurezza-Privacy)** 
+| Project | What it is | Stack |
+|---|---|---|
+| [Trama](https://github.com/alessandrobrunoh/trama) · [live](https://trama.alessandrobrunoh.it) | Coordination layer for teams that ship with people and coding agents: issues, workstreams, decisions and artifacts in one place. Self-hosted, with a Rust MCP server. | Angular · NestJS · PostgreSQL · Rust |
+| [ducklake-orm](https://github.com/alessandrobrunoh/ducklake-orm) | Rust ORM for DuckDB and DuckLake, [published on crates.io](https://crates.io/crates/ducklake-orm). Derive macros, typed queries, migrations, time travel. 39 integration tests. | Rust · DuckDB · proc-macro |
+| [Mnemosyne](https://github.com/alessandrobrunoh/Mnemosyne) | Local-first semantic history for source code. Tracks symbols with Tree-sitter, not line diffs; queryable by AI agents over MCP. | Rust · Tree-sitter · redb |
+| [Eivar-Online](https://github.com/alessandrobrunoh/Eivar-Online) | Multiplayer prototype: server-authoritative simulation, replicated state, client-side prediction. | Rust · Bevy · SpacetimeDB |
+| [TrainGame](https://github.com/alessandrobrunoh/train-game-test) | Life sim on an endless train: hundreds of NPCs, a closed economy and gangs. An LLM proposes one novelty a day; the deterministic engine validates it or refuses it. | Rust · Bevy · SQLite · LLM |
+| [Weaklings-Manager](https://github.com/alessandrobrunoh/Weaklings-Manager) | Guild platform for Albion Online: bank, loot splits, battle analytics, Discord login. Used by about 50 players. | Rust/Axum · PostgreSQL · Angular |
 
----
+## Open source
 
-## 🎯 Learning Goals
+- **Merged** · [JDL syntax highlighting](https://github.com/zed-industries/extensions/pull/3339) in `zed-industries/extensions`
+- **In review** · [Port forwarding UI and live SSH forwards](https://github.com/zed-industries/zed/pull/55248) in `zed-industries/zed`
+- **Published** · [ducklake-orm](https://crates.io/crates/ducklake-orm) on crates.io
 
-A set of projects planned to deepen my understanding of Rust across trading/blockchain, storage engines, distributed systems, and observability tooling — from low-level systems to high-level applications. Click on each project to learn more!
+## Stack
 
-<details>
-<summary><strong>1. [ ] Mini DEX on Solana — On-Chain Order Matching</strong></summary>
+- **Rust:** Tokio, Axum, SQLx, Tree-sitter, Bevy
+- **TypeScript:** Angular, React, React Native, Node, NestJS
+- **Java:** Spring Boot, Hibernate, Maven
+- **Infrastructure:** Docker, PostgreSQL, Valkey, S3, OpenTelemetry, Grafana
 
-*   **Description:** A minimal decentralized exchange built as a Solana on-chain program (Anchor). Users deposit two SPL tokens, place buy/sell orders, and the program matches and settles compatible orders automatically via escrow PDAs.
-*   **Key Concepts:** Cross-Program Invocation (CPI), Program Derived Addresses (PDA), SPL Token program, on-chain order matching logic.
-*   **Why it's a good project:** Combines Web3/Solana skills with order-matching logic similar to real trading systems, under the stricter constraints of a blockchain execution environment.
-*   **Repo:** [solana-mini-dex](https://github.com/alessandrobrunoh/solana-mini-dex)
+## How I work
 
-</details>
-
-<details>
-<summary><strong>2. [ ] Mini Database Engine with B-Tree</strong></summary>
-
-*   **Description:** An embedded database engine built from scratch: data persisted to disk in fixed-size pages, indexed with a B-Tree for efficient lookups, supporting insert/get/delete/range-scan.
-*   **Key Concepts:** B-Tree data structure, page-based file I/O, serialization, write-ahead logging for durability.
-*   **Why it's a good project:** Demonstrates deep understanding of on-disk data structures and storage engine internals, complementing ORM-level work like ducklake-orm.
-*   **Repo:** [mini-db-btree](https://github.com/alessandrobrunoh/mini-db-btree)
-
-</details>
-
-<details>
-<summary><strong>3. [ ] Load Testing Tool for Valkey-Backed Microservices</strong></summary>
-
-*   **Description:** A load-testing and observability CLI for microservices that communicate through Valkey (pub/sub/streams) instead of direct HTTP. Measures end-to-end latency and consumer lag across the whole pipeline, with a live terminal dashboard.
-*   **Key Concepts:** Pub/Sub and Streams, consumer lag/backpressure, async concurrency with Tokio, distributed observability.
-*   **Why it's a good project:** Goes beyond generic HTTP load testing to address real event-driven architecture problems, directly relevant to Valkey/Redis-based infrastructure.
-*   **Repo:** [valkey-loadtest](https://github.com/alessandrobrunoh/valkey-loadtest)
-
-</details>
-
-<details>
-<summary><strong>4. [ ] Distributed Key-Value Store with Raft Consensus</strong></summary>
-
-*   **Description:** A key-value store replicated across multiple nodes that stays consistent even if a node crashes, implementing the Raft consensus algorithm for leader election and log replication.
-*   **Key Concepts:** Leader election, log replication, quorum/majority agreement, term numbers.
-*   **Why it's a good project:** Hands-on understanding of consensus and replication, the same category of problem underlying real distributed databases and clustered Valkey/Redis deployments.
-*   **Repo:** [raft-kv-store](https://github.com/alessandrobrunoh/raft-kv-store)
-
-</details>
-
----
-
-<details>
-<summary><strong>📖 Competency Level Legend</strong></summary>
-
-*Note: these competency levels are subjective — they reflect my own self-assessment and how confident I personally feel with each technology, not a formal or standardized scale.*
-
-*   **Expert:** I have completed numerous complex projects independently.
-*   **Proficient:** I have successfully completed several medium-complexity projects.
-*   **Competent:** I have used the technology in projects for small/medium specific tasks.
-*   **Familiar:** I have foundational knowledge and have done personal experiments.
-*   **Exploring:** I’ve just taken a quick look at this technology.
-
-</details>
+I wrote all of my code by hand through university and the first half of my internship. Today I write it with coding agents, and the time I used to spend typing goes into specifying the change and reviewing it. I treat generated code as a proposal: I read the diff, run the tests and ask for changes. [Trama](https://trama.alessandrobrunoh.it) came out of that way of working.
